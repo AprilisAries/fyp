@@ -1,0 +1,10 @@
+[0m[ INFO] [1485315384.052261669]: Loading nodelet /camera/driver of type realsense_camera/R200Nodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1485315384.052424070]: /camera/color -> /camera/color[0m
+[0m[ INFO] [1485315384.052472945]: /camera/depth -> /camera/depth[0m
+[0m[ INFO] [1485315384.052512358]: /camera/fisheye -> /camera/fisheye[0m
+[0m[ INFO] [1485315384.052550383]: /camera/imu -> /camera/imu[0m
+[0m[ INFO] [1485315384.052588046]: /camera/ir -> /camera/ir[0m
+[0m[ INFO] [1485315384.052636934]: /camera/ir2 -> /camera/ir2[0m
+[0m[ INFO] [1485315384.073385317]: waitForService: Service [/camera/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1485315384.147931202]: waitForService: Service [/camera/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1485315496.752036132]: Unloading nodelet /camera/driver from manager nodelet_manager[0m

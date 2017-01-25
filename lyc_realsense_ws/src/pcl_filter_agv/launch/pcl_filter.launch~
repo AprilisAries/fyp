@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_rs_pcl" type="filters" name="filters" />
+    <node pkg="my_rs_pcl" type="pcl_filtered" name="pcl_filtered" />
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="pcl_filter_agv" type="filters" name="filters" />
+    <node pkg="pcl_filter_agv" type="pcl_filtered" name="pcl_filtered" />
+</launch>

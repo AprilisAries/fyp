@@ -1,0 +1,412 @@
+/* FileName: GUI.CSS   */
+/* Author  : WAT Team  */
+/*           CiTs, NTU */
+/*                     */
+
+/* Updated : 15 May 2015 - provision for wide format
+
+/* Updated : 10 Jun 2010 
+/* Updated : 1 Jun 2010 - major enhancements to standardise GUI for PLSQL and dotnet applications */
+
+/* Updated : 28/7/2001 */
+/* Updated : 04/10/2002 - LS - changed background image*/
+
+
+/* base element inheritance formatting */
+
+html,body{height:100%}   /* minimum height */
+body {
+	/* BACKGROUND-IMAGE: url(background_page.jpg); */ /*print*/
+	TEXT-ALIGN: center; /* align page centre */
+	MARGIN: 0px; 		/* to remove gap at top of page */
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	BACKGROUND-POSITION: center top;  /* align background image to centre */
+	COLOR: #333; 
+	FONT-SIZE: 1em;  	/* default font size - based on browser setting */
+	FONT-WEIGHT: normal; 
+	BORDER: 0px; 
+	PADDING: 0px;
+}
+
+/* for print */
+#ui_print_img {
+	margin: 0px;
+	padding: 10px;
+	width: auto;
+	float:left;
+}
+/* for print */
+
+#ui_container_w{
+	/*position:fixed;*/
+	height: 100%; 
+	width: 100%;
+	color: #333; 
+	text-align: left;
+	margin: 0px auto;
+	min-height: 100%; 
+	}
+
+#ui_container{  		/* outer container */
+	height:100%;		/* minimum height for IE browsers */
+	min-height:100%;	/* minimum height for non IE browsers */
+	text-align: left;
+	BACKGROUND-COLOR: #fff;
+	WIDTH: 100%;
+	COLOR: #333;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+html>body #ui_container{height:auto} /* not ie6- */
+
+#ui_header_container_w { /* header container for wide */
+	border: 0 0 0 0;
+	height: 80px; 
+	width: 100%;
+	/*background-image: url(header.jpg); */
+	/*background-REPEAT: NO-REPEAT; */
+	margin: 0 auto;
+	position : relative;
+	text-align: left;
+	}
+
+#ui_staff_header_container {	/* header container for staff */
+	/*BACKGROUND-IMAGE: url(header_staff.jpg); */ /*print*/
+	BORDER-BOTTOM: 0px; 
+	BORDER-LEFT: 0px; 
+	MARGIN-TOP: 0px; 
+	WIDTH: 100%;
+	HEIGHT: 80px; 
+	BORDER-TOP: 0px; 
+	BORDER-RIGHT: 0px;
+}
+#ui_student_header_container { /* header container for student */
+	/*BACKGROUND-IMAGE: url(header_student.jpg); */ /*print*/
+	BORDER-BOTTOM: 0px; 
+	BORDER-LEFT: 0px; 
+	MARGIN-TOP: 0px; 
+	WIDTH: 100%;
+	HEIGHT: 80px; 
+	BORDER-TOP: 0px; 
+	BORDER-RIGHT: 0px;
+}
+#ui_header_title_container {	/* outer container for title */
+	TEXT-ALIGN: right; 
+	PADDING: 12px; 
+	FONT-FAMILY: verdana, arial; 
+	COLOR: #000;  
+	WIDTH: 100%;
+	float:right; /*print*/
+}
+
+#ui_header_title_w {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #003478; 
+	padding-bottom: 12px; 
+	text-align: right; 
+	padding-top: 12px; 
+	padding-left: 12px; 
+	padding-right: 12px;
+	}
+#ui_header_title1{				/* container for title1 */
+	MARGIN: 0px;
+	FONT-SIZE: 14pt;
+	padding-top: 10px;
+}
+#ui_header_title2 {				/* container for title2 */
+	MARGIN: 0px; 
+	FONT-SIZE: 10pt; 
+	FONT-WEIGHT: bold
+}
+#ui_nav_container {			/* outer container for top navigation bar */
+	width: 100%; 
+	/*HEIGHT : 30px;*/
+	font-size: 0.9em; 
+	height: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold; 
+	color: #999; 
+	/*background-image: url(header_nav_blue.jpg); */
+	/*background-repeat: repeat-x;*/
+	background-color: #fff;
+	}
+
+#ui_nav_innercontainer {
+	width: 1018px; 
+	margin: 0px auto;
+	margin-top: 0px;
+	/*padding-top:5px;*/
+}
+#ui_nav_innercontainer_w {
+	width: 100%; 
+	margin-top: 0px;
+	/*padding-top: 5px;*/
+}
+#ui_nav_left {					/* container for left side */
+	display:none;
+}
+#ui_nav_right {					/* container for left right side. Eg Close */
+	display:none;
+}
+
+A.ui_navline_bottom_links:link {	/* to control the hyperlinks formating for bottom navigation bar */
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none;
+}
+A.ui_navline_bottom_links:visited {	/* to control the hyperlinks formating for bottom navigation bar */
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none;
+}
+A.ui_navline_bottom_links:hover {	/* to control the hyperlinks formating for bottom navigation bar */
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none;
+}
+.ui_navline_top_links {			/* unused at the moment */
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none;
+}
+
+.ui_navline_bottom_links {			/* to control the hyperlinks formating for bottom navigation bar */
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none;
+}
+.ui_nav_topright {					/* for additional hyperlinks below the default navigation bar */	
+	COLOR: #fffffff;
+	text-decoration: none;
+	display:none; 
+}
+#ui_body_container_w {
+	font-size: 0.9em; 
+	width: 99%; 
+	margin: 8px;
+	width: 100%; 
+	margin: 0px auto;
+	text-align: left;
+}
+#ui_body_container {	/* container for main body */
+	MARGIN: 10px; 
+	WIDTH: 98%; 
+	FONT-SIZE: 0.9em;
+	text-align: left;
+}
+#ui_footer_container_w {
+	width: 100%; 
+	border-top: #999 1px dotted; 
+	border-bottom: #999 1px dotted; 
+	margin: 0px; 
+	font-size: 0.8em; 
+	height: 2em; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: bold; 
+	color: #999;
+	}
+#ui_footer_container {	/* outer container for footer */
+	WIDTH: 100%;
+	FONT-FAMILY: Verdana, Arial, Helvetica;
+	HEIGHT: 2em;
+	FONT-SIZE: 0.8em;
+	FONT-WEIGHT: bold;
+	BACKGROUND-COLOR: #FFF;
+	color:#999;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-top-style: dotted; /* dotted line */
+	border-top-color: #999;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+#ui_footer_left {		/* for service provider. Unused. Now containing the copyright text */
+	MARGIN: 3px;
+	width:auto;
+	float:left;
+	text-align: left;
+}
+#ui_footer_right {		/* right hand side hyperlinks */
+	/* MARGIN: 3px;
+	width:auto;
+	float:right;
+	text-align:right;*/
+	display:none;
+}
+#ui_copyright_container {	/* unused */
+	MARGIN: 0px; 
+	WIDTH: auto; 
+	HEIGHT: 1.4em
+}
+#ui_copyright {				/* unused */
+	TEXT-ALIGN: left; 
+	FONT-STYLE: italic; 
+	MARGIN: 0px;
+	COLOR: #666;
+	FONT-SIZE: 0.7
+}
+
+/*.ui_nav_topright A {
+	COLOR: #ff0000
+}*/
+TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, "sans serif"
+}
+TD {
+	FONT-FAMILY: Arial, Helvetica, "sans serif"; 
+	FONT-SIZE: 0.8em
+}
+P {
+	MARGIN: 0.3em; FONT-FAMILY: Arial,Helvetica, "sans serif"; 
+	FONT-SIZE: 0.8em
+}
+UL {
+	LIST-STYLE-IMAGE: url(bullet_grey_6.gif)
+}
+UL UL {
+	LIST-STYLE-IMAGE: url(bullet_grey_4.gif)
+}
+DIV.staff UL {
+	LIST-STYLE-IMAGE: url(bullet_blue_6.gif)
+}
+DIV.staff UL UL {
+	LIST-STYLE-IMAGE: url(bullet_blue_4.gif)
+}
+DIV.student UL {
+	LIST-STYLE-IMAGE: url(bullet_red_6.gif)
+}
+DIV.student UL UL {
+	LIST-STYLE-IMAGE: url(bullet_red_4.gif)
+}
+
+/* ************************************* */
+/* for older GUI                         */
+/* ************************************* */
+
+.navline {
+	FONT-WEIGHT: bold;
+	COLOR: #ffffff; 
+}
+A {
+	FONT-FAMILY: Arial, Verdana, Helvetica, "sans serif";
+}
+A:hover {
+	BACKGROUND: #ffe7e7;
+}
+A:link {
+	COLOR: #fff;
+}
+A:visited {
+	COLOR: #fff;
+}
+A.navline:link {
+	COLOR: #fff; 
+	TEXT-DECORATION: none;
+}
+A.navline:visited {
+	COLOR: #fff; 
+	TEXT-DECORATION: none;
+}
+A.navline:hover {
+	display: none;
+	BACKGROUND: none transparent scroll repeat 0% 0%; 
+	COLOR: #fff; 
+	TEXT-DECORATION: none;
+}
+
+A.ui_nav_innercontainer_w.navline:link {
+	COLOR: #fff; 
+	TEXT-DECORATION: none;
+}
+
+A.ui_nav_innercontainer_w.navline:visited {
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none;
+}
+
+A.ui_nav_innercontainer_w.navline:hover{
+	COLOR: #ffffff; 
+	TEXT-DECORATION: none;
+}
+
+/*H1 {
+	COLOR: rgb(125,0,200);
+}
+H2 {
+	COLOR: rgb(0,0,255);
+}
+H3 {
+	COLOR: rgb(200,100,200);
+}
+H4 {
+	COLOR: rgb(255,0,0);
+}
+H5 {
+	COLOR: rgb(0,0,0);
+}
+H6 {
+	COLOR: rgb(0,0,0);
+}
+*/
+H1 H2 H3 H4 H5 H6 {
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Arial, Helvetica,"sans serif"; 
+	FONT-WEIGHT: normal;
+}
+.nav {
+	FONT-FAMILY: Verdana, Arial, Helvetica; 
+	COLOR: blue; 
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: bold; 
+	TEXT-DECORATION: none
+}
+.navfont {
+	FONT-FAMILY: Verdana, Arial, Helvetica; 
+	COLOR: rgb(255,255,255); 
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: bold; 
+	TEXT-DECORATION: none
+}
+.title1 {
+	FONT-FAMILY: verdana, arial; 
+	COLOR: rgb(0,52,120); 
+	FONT-SIZE: 16pt
+}
+.title2 {
+	FONT-FAMILY: verdana, arial; 
+	COLOR: rgb(0,52,120); 
+	FONT-SIZE: 12pt; 
+	FONT-WEIGHT: bold
+}
+.footer {
+	COLOR: rgb(0,52,120); 
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: normal;
+}
+.regno {
+	FONT: 7px Arial, Helvetica, sans-serif;
+}
+®+ùb      Xˆ<Xˆ<=]¨X‘vˆ   .    :https://wis.ntu.edu.sg/graphics/css/print.css necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/css
+Last-Modified: Wed, 20 May 2015 10:49:56 GMT
+Accept-Ranges: bytes
+Etag: "ecb97b6ea92d01:0"
+Server: Microsoft-IIS/8.5
+Date: Wed, 25 Jan 2017 05:47:52 GMT
+Content-Length: 8571
+ original-response-headers Content-Type: text/css
+Last-Modified: Wed, 20 May 2015 10:49:56 GMT
+Accept-Ranges: bytes
+Etag: "ecb97b6ea92d01:0"
+Server: Microsoft-IIS/8.5
+Date: Wed, 25 Jan 2017 05:47:52 GMT
+Connection: close
+Content-Length: 8571
+ uncompressed-len 0   !{

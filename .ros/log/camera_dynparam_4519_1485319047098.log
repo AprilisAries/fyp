@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2017-01-25 12:37:27,213: init_node, name[/camera/dynparam_4519_1485319047098], pid[4519]
+[xmlrpc][INFO] 2017-01-25 12:37:27,215: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-01-25 12:37:27,217: Started XML-RPC server [http://LYC-UP:43557/]
+[rospy.init][INFO] 2017-01-25 12:37:27,218: ROS Slave URI: [http://LYC-UP:43557/]
+[rospy.impl.masterslave][INFO] 2017-01-25 12:37:27,218: _ready: http://LYC-UP:43557/
+[rospy.registration][INFO] 2017-01-25 12:37:27,224: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-01-25 12:37:27,224: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-01-25 12:37:27,320: registered with master
+[rospy.rosout][INFO] 2017-01-25 12:37:27,320: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-01-25 12:37:27,328: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-01-25 12:37:27,333: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-01-25 12:37:27,395: topic[/camera/driver/parameter_updates] adding connection to [http://LYC-UP:39231/], count 0
+[rospy.internal][INFO] 2017-01-25 12:37:27,397: topic[/camera/driver/parameter_descriptions] adding connection to [http://LYC-UP:39231/], count 0
+[rospy.core][INFO] 2017-01-25 12:37:27,545: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-01-25 12:37:27,558: topic[/camera/driver/parameter_updates] removing connection to http://LYC-UP:39231/
+[rospy.internal][INFO] 2017-01-25 12:37:27,559: topic[/camera/driver/parameter_descriptions] removing connection to http://LYC-UP:39231/
+[rospy.impl.masterslave][INFO] 2017-01-25 12:37:27,560: atexit

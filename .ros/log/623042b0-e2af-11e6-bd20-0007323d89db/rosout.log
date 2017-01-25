@@ -1,0 +1,10 @@
+
+
+1485315359.242873780  Node Startup
+1485315359.400673341 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.6/src/libros/service.cpp:122(service::waitForService) [topics: /rosout] waitForService: Service [/camera/nodelet_manager/load_nodelet] is now available.
+1485315359.374585806 INFO [/tmp/binarydeb/ros-kinetic-nodelet-1.9.8/src/loader.cpp:233(Loader::Impl::advertiseRosApi) [topics: /rosout] Initializing nodelet with 4 worker threads.
+1485315359.845452216 ERROR [/tmp/binarydeb/ros-kinetic-realsense-camera-1.6.1/src/base_nodelet.cpp:167(BaseNodelet::connectToCamera) [topics: /rosout, /tf_static] /camera/driver - No cameras detected!
+1485315359.845687153 ERROR [/tmp/binarydeb/ros-kinetic-realsense-camera-1.6.1/src/base_nodelet.cpp:1113(BaseNodelet::checkError) [topics: /rosout, /tf_static] /camera/driver - Error calling rs_create_context ( api_version:11100 ): 
+uvcvideo kernel module is not loaded 
+
+1485315360.059752914 FATAL [/tmp/binarydeb/ros-kinetic-nodelet-1.9.8/src/nodelet.cpp:227(loadNodelet) [topics: /rosout] Failed to load nodelet '/camera/driver` of type `realsense_camera/R200Nodelet` to manager `nodelet_manager'

@@ -1,0 +1,2 @@
+pcl_filter_agv
+-DCATKIN_DEVEL_PREFIX=/home/liyanci/lyc_realsense_ws/devel -DCMAKE_INSTALL_PREFIX=/home/liyanci/lyc_realsense_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/liyanci/lyc_realsense_ws/devel
+
+Name: pcl_filter_agv
+Description: Description of pcl_filter_agv
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/liyanci/lyc_realsense_ws/devel/lib 
+Requires: 

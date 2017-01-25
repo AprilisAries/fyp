@@ -1,0 +1,386 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<meta name="google-site-verification" content="CjkdY6BqKWAVmQ78_iSq6J7ZZ9AoL7-CjFVBYGg9FU4" />
+<link rel="shortcut icon" href="/custom/favicon.ico" type="image/ico" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/custom/js/sorttable.js"></script>
+<script type="text/javascript" src="/custom/libraries/jquery.min.js"></script>                         
+<script type="text/javascript" src="/custom/js/seesaw.js"></script> 
+<script type="text/javascript" src="/custom/js/rosversion.js"></script> 
+<!--script type="text/javascript" src="/custom/libraries/RGraph.common.core.js" ></script Used for metrics only, should be conditional, not at the top-->
+<!--script type="text/javascript" src="/custom/libraries/RGraph.bar.js" ></script same as above -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17821189-2']);
+  _gaq.push(['_setDomainName', 'wiki.ros.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>librealsense - ROS Wiki</title>
+<script type="text/javascript" src="/moin_static197/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static197/rostheme/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static197/rostheme/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static197/rostheme/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static197/rostheme/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static197/rostheme/css/msie.css">
+<![endif]-->
+
+
+
+
+<link rel="canonical" href="http://wiki.ros.org/librealsense" />
+
+<link rel="Start" href="/Documentation">
+<link rel="Alternate" title="Wiki Markup" href="/librealsense?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/librealsense?action=print">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5950817-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+if(f) f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+if(e) {
+  searchChange(e);
+  searchBlur(e);
+}
+
+function handleSubmit() {
+  var f = document.getElementById('searchform');
+  var t = document.getElementById('searchinput');
+  var r = document.getElementById('real_searchinput');
+  
+  //alert("handleSubmit "+ t.value);
+  if(t.value.match(/review/)) {
+    r.value = t.value;
+  } else {
+    //r.value = t.value + " -PackageReviewCategory -StackReviewCategory -M3Review -DocReview -ApiReview -HelpOn -BadContent -LocalSpellingWords";
+    r.value = t.value + " -PackageReviewCategory -StackReviewCategory -DocReview -ApiReview";
+  }
+  //return validate(f);
+}
+//-->
+</script>
+
+<div id="dpage">
+  <div id="dpage-inner">
+    <div id="header"><div id="topnav">
+
+<!-- Alert box -->
+<!-- To enable the alert box uncomment the block below. Change the alert_box_name to a new name. Then update the content below the button. -->
+<!-- Disabling alert box
+    <div class="alert alert-info alert-dismissable" style="text-align: center;">
+<script>
+jQuery(function( $ ){
+    alert_box_name = 'roswiki_roscon2016_early_registration_last_day'
+    state = localStorage.getItem(alert_box_name);
+    if (!state) {
+      localStorage.setItem(alert_box_name, 'open');
+    }
+    state = localStorage.getItem(alert_box_name);
+    if (state == 'closed') {
+        $( '#topnav .alert' ).hide();
+    }
+    $( '.close' ).click(function () {
+	console.log('in .close.click');
+        localStorage.setItem(alert_box_name, 'closed');
+        $( '#topnav .alert' ).hide();
+  });
+});
+</script>
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      Early registration for <a href="http://roscon.ros.org/2016">ROSCon 2016</a> ends today, August 26th! <br><a href="https://events.osrfoundation.org/roscon-2016-registration/">Register now</a> to get the early registration discount. And <a href="http://conradhotels.hilton.com/en/ch/groups/personalized/S/SELCICI-GROSA-20161003/index.jhtml?WT.mc_id=POG">book you discounted hotel rooms</a> at our <a href="http://roscon.ros.org/2016/#location">discounted rates</a>.
+    </div>
+ End disabling alert box -->
+<!-- End Alert box -->
+
+      <table id="topnav-table">
+        <tr>
+          <td width="300" valign="top"><a href="/"><img border="0" src="/custom/images/ros_org.png" alt="ros.org" width="238" height="51"/></a></td>
+          <td valign="middle">
+            <a href="http://www.ros.org/about-ros">About</a>
+            |
+            <a href="/Support">Support</a>
+            |
+            <a href="http://status.ros.org/">Status</a>
+            |
+            <a href="http://answers.ros.org/">answers.ros.org</a>
+
+<!--<a href="http://roscon.ros.org/2016/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/roscon_wiki_header.jpg" width="133" height="65" alt="ROSCon 2016" /></a>
+-->
+
+<!-- <a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://ros.org/images/ros_kong_2014_badge.png" width="133" height="38" alt="roskong" /></a>
+-->
+<!--a href="https://events.osrfoundation.org/ros-kong-2014/"><img align="middle" style="padding-left: 15px;" src="http://imgur.com/eMzUJVe.png" width="133" height="38" alt="roskong" /></a-->
+          </td>
+
+          <td valign="middle" align="right">
+
+<script language="Javascript">
+
+function Searchy(theButton){
+
+theForm = theButton.form;
+newID = theForm.input.value;
+theForm.q.value = newID;
+theForm.input.value=theForm.input.value
+
+}
+</script>
+
+
+<form action="http://www.ros.org/search/index.html" id="cse">
+  <div>
+    <label>Search:</label>
+    <input type="hidden" name="cx" value="018259903093183594226:txvzw9fat6w" />
+    <input type="hidden" name="cof" value="FORID:11;NB:1" />
+    <input type="hidden" name="filter" value="0" />
+    <input type="hidden" name="num" value="10" />
+
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="input" id="input" autocomplete="on" style="width: 35%"/>
+    <input type="hidden" name="q" value="" />
+    <input type="submit" name="sa" value="Submit" onClick="Searchy(this)"/>
+
+  </div>
+</form>
+
+         </td>
+      </tr>
+      <tr>
+        <td colspan="3" height="53" width="1024"><nobr><img src="/custom/images/menu_left.png" width="17" height="53" alt=""/><a href="/"><img
+        border="0" src="/custom/images/menu_documentation.png" width="237" height="53" alt="Documentation" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="http://www.ros.org/browse/"><img border="0"
+        src="/custom/images/menu_browse_software.png" width="268" height="53" alt="Browse Software" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="http://www.ros.org/news"><img border="0"
+        src="/custom/images/menu_news.png" width="84" height="53" alt="News" /></a><img
+        src="/custom/images/menu_spacer.png" width="69" height="53" /><a href="/ROS/Installation"><img border="0"
+        src="/custom/images/menu_download.png" width="151" height="53" alt="Download" /></a><img
+        src="/custom/images/menu_right.png" width="60" height="53" /></nobr></td>
+
+      </tr>
+    </table> <!-- topnav-table -->
+
+    </div> <!-- /#topav -->
+  </div> <!-- /#header -->
+
+
+<div id="header2">
+
+<ul id="pagelocation">
+<li><a class="backlink" href="/action/fullsearch/librealsense?action=fullsearch&amp;context=180&amp;value=linkto%3A%22librealsense%22" rel="nofollow" title="Click to do a full-text search for this title">librealsense</a></li>
+</ul>
+
+<div id="locationline">
+</div>
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/Distributions">Distributions</a></li><li class="wikilink"><a href="/ROS/Installation">ROS/Installation</a></li><li class="wikilink"><a href="/ROS/Tutorials">ROS/Tutorials</a></li><li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li><li class="current"><a href="/librealsense">librealsense</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/action/info/librealsense?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/action/AttachFile/librealsense?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/librealsense">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="show" disabled class="disabled">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="CopyPage">Copy Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="MyPages">My Pages</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="CreatePdfDocument">CreatePdfDocument</option>
+<option value="Load">Load</option>
+<option value="RawFile">RawFile</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/action/login/librealsense?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><span id="rosversion_selector" class="btn-group">
+
+
+
+
+<button id="indigo" class="btn btn-default" onClick="Version({show:['indigo_and_newer', 'indigo_and_older', 'kinetic_and_older', 'indigo'], hide:['indigo_and_newer', 'kinetic_and_newer', 'indigo_and_older', 'kinetic'], target_ros_distro:'indigo'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('kinetic').style.background='#e6e6e6';document.getElementById('kinetic').style.color='#3e4f6e';return false"> indigo </button>
+
+<button id="kinetic" class="btn btn-default" onClick="Version({show:['indigo_and_newer', 'kinetic_and_newer', 'kinetic_and_older', 'kinetic'], hide:['kinetic_and_newer', 'indigo_and_older', 'kinetic_and_older', 'indigo'], target_ros_distro:'kinetic'});this.style.color='#e6e6e6';this.style.background='#3e4f6e';document.getElementById('indigo').style.background='#e6e6e6';document.getElementById('indigo').style.color='#3e4f6e';return false"> kinetic </button>
+</span><span style="text-align:left">&nbsp;&nbsp;<a href="javascript:toggleDocStatus()">Documentation Status</a></span><div id="doc_status" style="background:#CCCCCC;display:none;margin-top:0px;margin-bottom:0px;padding-top:0px"><ul style="padding-top:5px;margin-top:0px;margin-bottom:0px;padding-bottom:5px;"><li><b>electric:</b> Cannot load information on <strong>name: librealsense, distro: electric</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>fuerte:</b> Cannot load information on <strong>name: librealsense, distro: fuerte</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>groovy:</b> Cannot load information on <strong>name: librealsense, distro: groovy</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>hydro:</b> Cannot load information on <strong>name: librealsense, distro: hydro</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>indigo:</b> <i>Documentation generated on January 14, 2017 at 11:10 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Idoc/job/Idoc__librealsense__ubuntu_trusty_amd64">doc job</a>).</span></li><br><li><b>jade:</b> Cannot load information on <strong>name: librealsense, distro: jade</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</li><br><li><b>kinetic:</b> <i>Documentation generated on January 13, 2017 at 11:07 AM</i><span style="font-size:10px"> (<a href="http://build.ros.org/view/Kdoc/job/Kdoc__librealsense__ubuntu_xenial_amd64">doc job</a>).</span></li><br></div><div class="version electric">Cannot load information on <strong>name: librealsense, distro: electric</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version fuerte">Cannot load information on <strong>name: librealsense, distro: fuerte</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version groovy">Cannot load information on <strong>name: librealsense, distro: groovy</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version hydro">Cannot load information on <strong>name: librealsense, distro: hydro</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version indigo"><div class="package-links"><strong>Package Links</strong><ul><li><strong><a href="http://docs.ros.org/indigo/api/librealsense/html">Code API</a></strong></li><li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:librealsense/page:1/">FAQ</a></li><li><a class="nonexistent" href="/librealsense/ChangeList">Change List</a></li><li><a class="nonexistent" href="/librealsense/Reviews">Reviews</a></li></ul><script type="text/javascript" src="/custom/js/roswiki.js"></script><strong><a href="#" onClick="toggleExpandable('indigodependencies-list'); return false;">Dependencies</a> (1)</strong><br /><div id="indigodependencies-list" style="display:none"><ul><li><a href="/catkin?distro=indigo">catkin</a></li></ul></div><strong><a href="#" onClick="toggleExpandable('indigoused-by-list'); return false;">Used by</a> (1)</strong><br /><div id="indigoused-by-list" style="display:none"><ul><li><a href="/realsense_camera?distro=indigo">realsense_camera</a></li></ul></div><script type="text/javascript" src="/custom/js/roswiki.js"></script><strong><a href="#" onClick="toggleExpandableJenkins('stack-indigojenkins-list'); return false;">Jenkins jobs</a> (9)</strong><br /><div id="stack-indigojenkins-list" style="display:none"><ul><li><a href="http://build.ros.org/view/Isrc_uT/job/Isrc_uT__librealsense__ubuntu_trusty__source">source ubuntu trusty</a></li><li><a href="http://build.ros.org/view/Isrc_uS/job/Isrc_uS__librealsense__ubuntu_saucy__source">source ubuntu saucy</a></li><li><a href="http://build.ros.org/view/Ibin_arm_uThf/job/Ibin_arm_uThf__librealsense__ubuntu_trusty_armhf__binary">binary ubuntu trusty armhf</a></li><li><a href="http://build.ros.org/view/Ibin_uS64/job/Ibin_uS64__librealsense__ubuntu_saucy_amd64__binary">binary ubuntu saucy amd64</a></li><li><a href="http://build.ros.org/view/Ibin_uS32/job/Ibin_uS32__librealsense__ubuntu_saucy_i386__binary">binary ubuntu saucy i386</a></li><li><a href="http://build.ros.org/view/Ibin_uT64/job/Ibin_uT64__librealsense__ubuntu_trusty_amd64__binary">binary ubuntu trusty amd64</a></li><li><a href="http://build.ros.org/view/Ibin_uT32/job/Ibin_uT32__librealsense__ubuntu_trusty_i386__binary">binary ubuntu trusty i386</a></li><li><a href="http://build.ros.org/view/Idev/job/Idev__librealsense__ubuntu_trusty_amd64">devel ubuntu trusty amd64</a></li><li><a href="http://build.ros.org/view/Idoc/job/Idoc__librealsense__ubuntu_trusty_amd64">doc</a></li></ul></div></div><h1>Package Summary</h1><p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span>
+<span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span>
+<span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span><p id="package-info">Library for capturing data from the Intel(R) RealSense(TM) F200, SR300, R200, LR200 and ZR300 cameras. This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of RealSense(TM); devices are implemented in this project, including multi-camera capture.<p id="package-info-1"><ul><li>Maintainer status: maintained</li><li>Maintainer: Sergey Dorodnicov &lt;sergey.dorodnicov AT intel DOT com&gt;, Mark Horn &lt;mark.d.horn AT intel DOT com&gt;, Reagan Lopez &lt;reagan.lopez AT intel DOT com&gt;</li><li>Author: </li><li>License: Apache License, Version 2.0</li><li>Bug / feature tracker:  <a href="https://github.com/intel-ros/realsense/issues">https://github.com/intel-ros/realsense/issues</a></li><li>Source: git <a href="https://github.com/IntelRealSense/librealsense">https://github.com/IntelRealSense/librealsense.git</a> (branch: master)</li></ul></div>
+<div class="version jade">Cannot load information on <strong>name: librealsense, distro: jade</strong>, which means that it is not yet in our index. Please see <a href="http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation">this page</a> for information on how to submit your repository to our index.</div>
+<div class="version kinetic"><div class="package-links"><strong>Package Links</strong><ul><li><strong><a href="http://docs.ros.org/kinetic/api/librealsense/html">Code API</a></strong></li><li><a href="http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:librealsense/page:1/">FAQ</a></li><li><a class="nonexistent" href="/librealsense/ChangeList">Change List</a></li><li><a class="nonexistent" href="/librealsense/Reviews">Reviews</a></li></ul><script type="text/javascript" src="/custom/js/roswiki.js"></script><strong><a href="#" onClick="toggleExpandable('kineticdependencies-list'); return false;">Dependencies</a> (1)</strong><br /><div id="kineticdependencies-list" style="display:none"><ul><li><a href="/catkin?distro=kinetic">catkin</a></li></ul></div><strong><a href="#" onClick="toggleExpandable('kineticused-by-list'); return false;">Used by</a> (1)</strong><br /><div id="kineticused-by-list" style="display:none"><ul><li><a href="/realsense_camera?distro=kinetic">realsense_camera</a></li></ul></div><script type="text/javascript" src="/custom/js/roswiki.js"></script><strong><a href="#" onClick="toggleExpandableJenkins('stack-kineticjenkins-list'); return false;">Jenkins jobs</a> (13)</strong><br /><div id="stack-kineticjenkins-list" style="display:none"><ul><li><a href="http://build.ros.org/view/Ksrc_uW/job/Ksrc_uW__librealsense__ubuntu_wily__source">source ubuntu wily</a></li><li><a href="http://build.ros.org/view/Ksrc_uX/job/Ksrc_uX__librealsense__ubuntu_xenial__source">source ubuntu xenial</a></li><li><a href="http://build.ros.org/view/Ksrc_dJ/job/Ksrc_dJ__librealsense__debian_jessie__source">source debian jessie</a></li><li><a href="http://build.ros.org/view/Kbin_uW64/job/Kbin_uW64__librealsense__ubuntu_wily_amd64__binary">binary ubuntu wily amd64</a></li><li><a href="http://build.ros.org/view/Kbin_uW32/job/Kbin_uW32__librealsense__ubuntu_wily_i386__binary">binary ubuntu wily i386</a></li><li><a href="http://build.ros.org/view/Kbin_uX64/job/Kbin_uX64__librealsense__ubuntu_xenial_amd64__binary">binary ubuntu xenial amd64</a></li><li><a href="http://build.ros.org/view/Kbin_uX32/job/Kbin_uX32__librealsense__ubuntu_xenial_i386__binary">binary ubuntu xenial i386</a></li><li><a href="http://build.ros.org/view/Kbin_dj_dJ64/job/Kbin_dj_dJ64__librealsense__debian_jessie_amd64__binary">binary debian jessie amd64</a></li><li><a href="http://build.ros.org/view/Kbin_djv8_dJv8/job/Kbin_djv8_dJv8__librealsense__debian_jessie_arm64__binary">binary debian jessie arm64</a></li><li><a href="http://build.ros.org/view/Kbin_uxhf_uXhf/job/Kbin_uxhf_uXhf__librealsense__ubuntu_xenial_armhf__binary">binary ubuntu xenial armhf</a></li><li><a href="http://build.ros.org/view/Kbin_uxv8_uXv8/job/Kbin_uxv8_uXv8__librealsense__ubuntu_xenial_arm64__binary">binary ubuntu xenial arm64</a></li><li><a href="http://build.ros.org/view/Kdev/job/Kdev__librealsense__ubuntu_xenial_amd64">devel ubuntu xenial amd64</a></li><li><a href="http://build.ros.org/view/Kdoc/job/Kdoc__librealsense__ubuntu_xenial_amd64">doc</a></li></ul></div></div><h1>Package Summary</h1><p><span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Released</span>
+<span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Continuous integration</span>
+<span class="badge" style="background-color: #5cb85c;"><span class="glyphicon glyphicon-ok" style="color: white;"></span> Documented</span><p id="package-info-2">Library for capturing data from the Intel(R) RealSense(TM) F200, SR300, R200, LR200 and ZR300 cameras. This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of RealSense(TM); devices are implemented in this project, including multi-camera capture.<p id="package-info-3"><ul><li>Maintainer status: developed</li><li>Maintainer: Sergey Dorodnicov &lt;sergey.dorodnicov AT intel DOT com&gt;, Mark Horn &lt;mark.d.horn AT intel DOT com&gt;, Reagan Lopez &lt;reagan.lopez AT intel DOT com&gt;</li><li>Author: </li><li>License: Apache License, Version 2.0</li><li>Bug / feature tracker:  <a href="https://github.com/intel-ros/realsense/issues">https://github.com/intel-ros/realsense/issues</a></li><li>Source: git <a href="https://github.com/IntelRealSense/librealsense">https://github.com/IntelRealSense/librealsense.git</a> (branch: master)</li></ul></div><p class="line862"> <div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Overview">Overview</a></li><li>
+<a href="#Installation">Installation</a><ol><li>
+<a href="#uvcvideo_Driver_Patches">uvcvideo Driver Patches</a></li><li>
+<a href="#Installation_Prerequisites">Installation Prerequisites</a><ol><li>
+<a href="#Enable_Kernel_Sources">Enable Kernel Sources</a></li><li>
+<a href="#Re-install_Package">Re-install Package</a></li></ol></li><li>
+<a href="#Installation_Troubleshooting">Installation Troubleshooting</a><ol><li>
+<a href="#No_cameras_detected:">No cameras detected:</a></li><li>
+<a href="#DKMS_Fails_to_Build:">DKMS Fails to Build:</a></li></ol></li></ol></li><li>
+<a href="#ROS_Support">ROS Support</a></li><li>
+<a href="#Library_Details">Library Details</a></li></ol></li></ol></div><p class="line874"> <span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><p class="line867">
+<h2 id="Overview">Overview</h2>
+<span class="anchor" id="line-4"></span><p class="line867"><tt class="backtick">librealsense</tt> is a cross-platform library (Linux, OSX, Windows) for capturing data from the Intel¬Æ <a href="/RealSense">RealSense</a>‚Ñ¢ R200, F200, and SR300 cameras. This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of <a href="/RealSense">RealSense</a>‚Ñ¢ devices are implemented in this project, including multi-camera capture. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line862">Developer kits containing the necessary hardware to use this library are <a class="http" href="http://click.intel.com/realsense.html">available for purchase online</a>. This project is separate from the production software stack available in the <a class="https" href="https://software.intel.com/en-us/intel-realsense-sdk">Intel¬Æ RealSense‚Ñ¢ SDK</a>, namely that this library only encompasses camera capture functionality without additional computer vision algorithms. <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><p class="line867">
+<h2 id="Installation">Installation</h2>
+<span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867">
+<h3 id="uvcvideo_Driver_Patches">uvcvideo Driver Patches</h3>
+<span class="anchor" id="line-11"></span><p class="line867"><tt class="backtick">librealsense</tt> requires patches to the <tt class="backtick">uvcvideo</tt> loadable kernel module to support various cameras. Intel¬Æ <a href="/RealSense">RealSense</a>‚Ñ¢ R200 camera support is upstreamed in the 4.4.x linux kernel, but older kernels and all other Intel¬Æ <a href="/RealSense">RealSense</a>‚Ñ¢ cameras require patches. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line867">
+<h3 id="Installation_Prerequisites">Installation Prerequisites</h3>
+<span class="anchor" id="line-14"></span><p class="line874">Prior to installing the ROS librealsense Debian package, the system will need to be configured to enable the downloading of kernel source files. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line867">
+<h4 id="Enable_Kernel_Sources">Enable Kernel Sources</h4>
+<span class="anchor" id="line-17"></span><p class="line874">Use one of the following methods to enable the downloading of kernel sources on the system. This only needs to be done once per system or if the OS is re-installed or upgrade to a new major release. <span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867">
+<h5 id="Method_1_.28Script.29">Method 1 (Script)</h5>
+<span class="anchor" id="line-20"></span><p class="line867"><span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><pre><span class="anchor" id="line-1-1"></span>wget -O enable_kernel_sources.sh http://bit.ly/en_krnl_src
+<span class="anchor" id="line-2-1"></span>bash ./enable_kernel_sources.sh</pre><span class="anchor" id="line-24"></span><span class="anchor" id="line-25"></span><p class="line874">or  <span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><p class="line867">
+<h5 id="Method_2_.28Manual.29">Method 2 (Manual)</h5>
+<span class="anchor" id="line-28"></span><p class="line862">Update your <tt class="backtick">/etc/apt/sources.list</tt> file and/or <tt class="backtick">/etc/apt/sources.list.d/*.list</tt> to uncomment (or add) the <tt class="backtick">deb-src</tt> entries for all of the entries for the <tt class="backtick">main</tt> repositories. Below is an <strong>example</strong> for ubuntu 16.04 (Xenial). <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><p class="line867"><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><pre><span class="anchor" id="line-1-2"></span>deb-src http://us.archive.ubuntu.com/ubuntu/ xenial main restricted
+<span class="anchor" id="line-2-2"></span>deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-updates main restricted
+<span class="anchor" id="line-3-1"></span>deb-src http://us.archive.ubuntu.com/ubuntu/ xenial-backports main restricted universe multiverse
+<span class="anchor" id="line-4-1"></span>deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted</pre><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><p class="line874">After the manual edits are complete, run the update commands to ensure the entries are correct and update the package database. <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><pre><span class="anchor" id="line-1-3"></span>sudo apt-get update</pre><span class="anchor" id="line-41"></span><p class="line867">
+<h4 id="Re-install_Package">Re-install Package</h4>
+<span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line874">If the package has failed to install because the kernel sources were not available, the package will need to be re-installed after the update. <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><pre><span class="anchor" id="line-1-4"></span>sudo apt-get --reinstall install 'ros-*-librealsense'</pre><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line867">
+<h3 id="Installation_Troubleshooting">Installation Troubleshooting</h3>
+<span class="anchor" id="line-49"></span><p class="line867">
+<h4 id="No_cameras_detected:">No cameras detected:</h4>
+<span class="anchor" id="line-50"></span><p class="line867"><span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><pre><span class="anchor" id="line-1-5"></span>roslaunch realsense_camera [cam_type]_nodelet_[mode].launch</pre><span class="anchor" id="line-53"></span><p class="line874">... <span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><div class="red"><span class="anchor" id="line-1-6"></span><p class="line874">[ERROR]: /camera/driver - No cameras detected! <span class="anchor" id="line-2-3"></span>[ERROR]: /camera/driver - Error calling rs_create_context ( api_version:11100 ):  <span class="anchor" id="line-3-2"></span>uvcvideo kernel module is not loaded <span class="anchor" id="line-4-2"></span>... </div><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><p class="line867"><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><pre><span class="anchor" id="line-1-7"></span>sudo modprobe uvcvideo</pre><span class="anchor" id="line-64"></span><p class="line867"><span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><div class="red"><span class="anchor" id="line-1-8"></span><p class="line874">modprobe: ERROR: could not insert 'uvcvideo': Required key not available </div><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><p class="line867"><strong>Solution: </strong>  <span class="anchor" id="line-69"></span><ul><li><p class="line862">DKMS does not work with Secure Boot. You need to <a class="https" href="https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS">disable it</a>. <span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span></li></ul><p class="line867">
+<h4 id="DKMS_Fails_to_Build:">DKMS Fails to Build:</h4>
+<span class="anchor" id="line-73"></span><p class="line867"><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><pre><span class="anchor" id="line-1-9"></span>make KERNELRELEASE=4.4.0-43-generic -C /var/lib/dkms/uvcvideo/1.1.1-3-realsense/build/linux-src M=drivers/media/usb/uvc/....(bad exit status: 2)
+<span class="anchor" id="line-2-4"></span>Error! Bad return status for module build on kernel: 4.4.0-43-generic (x86_64)</pre><span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><p class="line867"><strong>Solution: </strong>  <span class="anchor" id="line-79"></span><ul><li>Remove the failed DKMS installation <span class="anchor" id="line-80"></span></li></ul><p class="line867"><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><pre><span class="anchor" id="line-1-10"></span>dkms remove -m uvcvideo -v "1.1.1-3-realsense" --all</pre><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><p class="line867">
+<h2 id="ROS_Support">ROS Support</h2>
+<span class="anchor" id="line-85"></span><p class="line862">The library is a ROS Debian packaging of the more generic cross-platform library. The packaging and release is maintained by the team supporting the various ROS <a href="/RealSense">RealSense</a> packages. Please [[<a class="https" href="https://github.com/intel-ros/realsense/issues|submit">https://github.com/intel-ros/realsense/issues|submit</a> requests or report bugs] concerning this package to the realsense_camera <a class="nonexistent" href="/GitHub">GitHub</a> Issues. <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line867">
+<h2 id="Library_Details">Library Details</h2>
+<span class="anchor" id="line-88"></span><p class="line862">For updated details on this library see the <a class="https" href="https://github.com/IntelRealSense/librealsense/blob/master/readme.md">librealsense on GitHub</a>. <span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><p class="line867"><span class="anchor" id="line-91"></span><p class="line867"><span class="anchor" id="line-92"></span><span class="anchor" id="bottom"></span></div></div>
+<div id="pagebottom"></div>
+</div>
+
+<p id="pageinfo" class="info" lang="en" dir="ltr">Wiki: librealsense  (last edited 2017-01-03 09:47:14 by <span title="Hamdi @ 157.82.240.135[157.82.240.135]"><a href="/Sahloul" title="Hamdi @ 157.82.240.135[157.82.240.135]">Sahloul</a></span>)</p>
+
+
+
+
+<div style="margin-top: 9px;" class="footer">
+Except where otherwise noted, the ROS wiki is licensed under the <br /><a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> | <a href="https://plus.google.com/113789706402978299308" rel="publisher">Find us on Google+</a>
+<hr style="margin-top: 10px;">
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+<a href="http://www.osrfoundation.org"><img style="margin-top: -1px;" src="/custom/images/brought_by_horiz.png"></p></a>
+  </div>
+</div>
+</div>
+
+  </div></div> <!-- /#dpage-inner, /#dpage -->
+
+
+</body>
+</html>
+
+G?[êM{           Xà#¿=]ï°       !    :http://wiki.ros.org/librealsense strongly-framed 1 request-method GET request-Cookie AcAEgVa1lIJBAvlyLwAv3TkpdyA= request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0 request-Accept-Language en-US,en;q=0.5 response-head HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2017 04:04:15 GMT
+Server: Apache
+Vary: Cookie,User-Agent,Accept-Language
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Wed, 25 Jan 2017 04:04:15 GMT
+Server: Apache
+Vary: Cookie,User-Agent,Accept-Language
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 15 predictor::http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css 1,1,0,4096 predictor::http://code.jquery.com/jquery-1.11.0.min.js 1,1,0,4096 predictor::http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js 1,1,0,4096 predictor::http://wiki.ros.org/custom/js/sorttable.js 1,1,0,4096 predictor::http://wiki.ros.org/custom/libraries/jquery.min.js 1,1,0,4096 predictor::http://wiki.ros.org/custom/js/seesaw.js 1,1,0,4096 predictor::http://wiki.ros.org/custom/js/rosversion.js 1,1,0,4096 predictor::http://wiki.ros.org/moin_static197/common/js/common.js 1,1,0,4096 predictor::http://wiki.ros.org/moin_static197/rostheme/css/common.css 1,1,0,4096 predictor::http://wiki.ros.org/moin_static197/rostheme/css/screen.css 1,1,0,4096 predictor::http://wiki.ros.org/moin_static197/rostheme/css/print.css 1,1,0,4096 predictor::http://wiki.ros.org/moin_static197/rostheme/css/projection.css 1,1,0,4096 predictor::http://wiki.ros.org/custom/js/roswiki.js 1,0,0,4096 predictor::http://www.google-analytics.com/ga.js 1,0,0,4096 predictor::http://netdna.bootstrapcdn.com/bootstrap/3.0.3/fonts/glyphicons-halflings-regular.woff 1,1,0,4096   ñ—

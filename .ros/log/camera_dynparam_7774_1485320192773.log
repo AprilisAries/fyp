@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2017-01-25 12:56:32,871: init_node, name[/camera/dynparam_7774_1485320192773], pid[7774]
+[xmlrpc][INFO] 2017-01-25 12:56:32,873: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-01-25 12:56:32,875: Started XML-RPC server [http://LYC-UP:46213/]
+[rospy.init][INFO] 2017-01-25 12:56:32,875: ROS Slave URI: [http://LYC-UP:46213/]
+[rospy.impl.masterslave][INFO] 2017-01-25 12:56:32,876: _ready: http://LYC-UP:46213/
+[rospy.registration][INFO] 2017-01-25 12:56:32,879: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-01-25 12:56:32,879: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-01-25 12:56:32,977: registered with master
+[rospy.rosout][INFO] 2017-01-25 12:56:32,977: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-01-25 12:56:32,986: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-01-25 12:56:32,991: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-01-25 12:56:33,048: topic[/camera/driver/parameter_updates] adding connection to [http://LYC-UP:45583/], count 0
+[rospy.internal][INFO] 2017-01-25 12:56:33,053: topic[/camera/driver/parameter_descriptions] adding connection to [http://LYC-UP:45583/], count 0
+[rospy.core][INFO] 2017-01-25 12:56:33,188: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-01-25 12:56:33,207: topic[/camera/driver/parameter_updates] removing connection to http://LYC-UP:45583/
+[rospy.internal][INFO] 2017-01-25 12:56:33,209: topic[/camera/driver/parameter_descriptions] removing connection to http://LYC-UP:45583/
+[rospy.impl.masterslave][INFO] 2017-01-25 12:56:33,210: atexit
+[rospy.internal][WARNING] 2017-01-25 12:56:33,215: Unknown error initiating TCP/IP socket to LYC-UP:56342 (http://LYC-UP:45583/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

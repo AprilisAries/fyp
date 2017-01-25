@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2017-01-25 13:00:42,136: init_node, name[/rostopic_8951_1485320441955], pid[8951]
+[xmlrpc][INFO] 2017-01-25 13:00:42,137: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-01-25 13:00:42,144: ROS Slave URI: [http://LYC-UP:35150/]
+[xmlrpc][INFO] 2017-01-25 13:00:42,144: Started XML-RPC server [http://LYC-UP:35150/]
+[rospy.impl.masterslave][INFO] 2017-01-25 13:00:42,145: _ready: http://LYC-UP:35150/
+[rospy.registration][INFO] 2017-01-25 13:00:42,146: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2017-01-25 13:00:42,147: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-01-25 13:00:42,245: registered with master
+[rospy.rosout][INFO] 2017-01-25 13:00:42,246: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-01-25 13:00:42,254: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-01-25 13:00:42,265: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-01-25 13:00:42,424: topic[/raw_xyzrgb_output] adding connection to [http://LYC-UP:37763/], count 0
+[rospy.internal][INFO] 2017-01-25 13:00:42,464: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-01-25 13:01:12,786: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-01-25 13:01:12,797: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-01-25 13:01:12,800: topic[/raw_xyzrgb_output] removing connection to http://LYC-UP:37763/
+[rospy.impl.masterslave][INFO] 2017-01-25 13:01:12,800: signal-2
+[rospy.core][INFO] 2017-01-25 13:01:12,936: signal_shutdown [atexit]

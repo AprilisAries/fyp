@@ -1,0 +1,297 @@
+
+<html>
+<head>
+<title>StudentLink</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link href="/common_files/style/portal.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" language="JavaScript1.2" src="/common_files/m_custom/tree_script.js"></script>
+</head>
+<body bgcolor="#ffffff" text="#000000" leftmargin="0" topmargin="0">
+  <form action="/common_files/search/process.asp" method="post" target="myWin"
+onsubmit="window.open('', 'myWin', 'width=600,height=400,status=yes,resizable=yes,scrollbars=yes')">
+
+          <div align="right">
+            <input type="text" style="height:20px; width:150px" name="search_para" value="Search StudentLink..." onFocus="if (value == 'Search StudentLink...') {value = ''}" onBlur="if (value == '') {value = 'Search StudentLink...'}">
+            <input type="submit" value="Go">
+            <input type="hidden" name="sitemap" value="https://wis.ntu.edu.sg/webexe/owa/eservices_search.index_search?t=1&p_name=">
+          </div>
+
+      <!-- start OAS Message for students -->
+
+	<font style="font-family:sans-serif; font-size:x-small">
+      		Please update your Personal Particulars especially your address & contact details at <a href="https://sso.wis.ntu.edu.sg/webexe88/owa/sso_redirect.asp?t=1&app=https://wis.ntu.edu.sg/webexe/owa/pc_main.mainmenu" target="SSO2Win">Change of Personal Particulars</a> web page
+	</font>
+	<br/><br/>
+
+      <!-- end OAS Message for students -->
+
+          
+<font style="font-family:sans-serif; font-size:x-small">
+<fieldset>
+	<legend>Important Notice:</legend>
+	<ol>
+		<li>With effect from 15 July 2013, all payments would be made at the One Stop @ SAC.</li>
+		<li>Only cashless modes of payment (GIRO, NETS, cash card, EZ-Link, cheques, bank draft, cashier’s order and credit card) can be accepted at One Stop @ SAC</li>
+	</ol>
+For more details, please refer to <a href="http://www.ntu.edu.sg/oas/OneStopSAC/Pages/default.aspx" target="_blank">http://www.ntu.edu.sg/oas/OneStopSAC/Pages/default.aspx</a>
+</fieldset>
+</font>
+
+
+<ul>
+
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">Academic Matters</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fa%5Fmentor%5Fstud%2Eview%5Fremark' target='SSO2Win'>Academic Advisory Scheme</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FAcademicCalendar%2F' target='SSO2Win'>Academic Calendar</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FURECA%5FFYP%5FACCEPT%2ESTUDLIST' target='SSO2Win'>Acceptance of FYP-URECA</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Famp%5Fbmp%2Emain' target='SSO2Win'>Acceptance of Offer to ABP</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FCOURSE%5FEXEMPTION%5FFORM%2EConfirmForm' target='SSO2Win'>Application for Course Exemption (HSS & WKWSCI)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FPages%2FChangeofProgramme%2Easpx' target='SSO2Win'>Change of Programme</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FCourseRegistration%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Course Registration</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fsubj%5Fappeal%5Fmain%2EMSG' target='SSO2Win'>Course Registration Appeal System (GERPE & UE)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fntlm%2Fsso%5Fexpress%2Easp%3Fapp%3Dhttps%3A%2F%2Fwish%2Ewis%2Entu%2Eedu%2Esg%2Fpls%2Fwebexe%2Fdars%5Fresult%5Fro%2Emain' target='SSO2Win'>Degree Audit*</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Feee%5Falloc%2Emenu' target='SSO2Win'>EEE Off-Line Course Registration System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FExamination%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Examination</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FCourseRegistration%2FPages%2FMinorProgrammes%2Easpx' target='SSO2Win'>Minor Programme</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FConvocation%2F' target='SSO2Win'>NTU Convocation</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fntulearn%2Entu%2Eedu%2Esg' target='SSO2Win'>NTULearn</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fntlm%2Fsso%5Fexpress%2Easp%3Fapp%3Dhttps%3A%2F%2Fwish%2Ewis%2Entu%2Eedu%2Esg%2Fpls%2Fwebexe%2Faus%5Fstars%5Fmain%2Emenu' target='SSO2Win'>STARS</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fntlm%2Fsso%5Fexpress%2Easp%3Fapp%3Dhttps%3A%2F%2Fwish%2Ewis%2Entu%2Eedu%2Esg%2Fpls%2Fwebexe%2Faus%5Fstars%5Fplanner%2Emain' target='SSO2Win'>STARS Planner</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2FCourseRegistration%2FPages%2FStarsPlannerUserGuide%2Easpx' target='SSO2Win'>STARS Planner & STARS User Guide</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAcademicServices%2Facademicprogrammes%2FPages%2FStreaming%2Easpx' target='SSO2Win'>Streaming</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fstr%5Feng%2Edisplay' target='SSO2Win'>Streaming - Common Engineering</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fstr%5Fegbm%2Edisplay' target='SSO2Win'>Streaming - EGBM</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fstr%5Fadm%5Fresult%2Edisplay' target='SSO2Win'>Streaming Result - Arts, Design and Media</A><img src='/common_files/images/new.gif' height='15' width='30'></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fstr%5Feng%5Fresult%2Edisplay' target='SSO2Win'>Streaming Result - Common Engineering</A><img src='/common_files/images/new.gif' height='15' width='30'></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FFEEDBACK%5FTEACHING%5FFORM%2EINTRODUCTION' target='SSO2Win'>Student Feedback on Teaching</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FURECA%5FSTUD%2EMENU' target='SSO2Win'>URECA</A></li>
+
+	      <li id="foldheader" style="font-size:14"><img src="/common_files/images/dummy.gif">Attachment Services</li>
+	      <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fteamsites%2Entu%2Eedu%2Esg%2FCAO%2FEngineering2' target='SSO2Win'>Engineering Attachment</A></li>
+</ul>
+	      <li id="foldheader" style="font-size:14"><img src="/common_files/images/dummy.gif">Student Exchange</li>
+	      <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fglobal%2Entu%2Eedu%2Esg%2FGMP%2Fgemdiscoverer%2FPages%2FApplications%2Easpx' target='SSO2Win'>GEM Discoverer - Online Application Module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2FGSS%5FCHECK%5FSTATUS%2Enotice' target='SSO2Win'>GEM Discoverer - Online Acceptance of placement offered</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Fgss%5Fstud%5Fsubj%5Freject%2Emain' target='SSO2Win'>GEM Discoverer - Online Course Matching Updating module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Finstep%5Fapply%2Enotice' target='SSO2Win'>GEM Explorer - Online Application module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2FINSTEP%5FCHECK%5FSTATUS%2Enotice' target='SSO2Win'>GEM Explorer - Online Acceptance of placement offered / Check INSTEP Allocation</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Finstep%5Fstud%5Fsubj%5Freject%2Enotice' target='SSO2Win'>GEM Explorer - Online Course Matching Updating module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Finstep%5Fpast%5Fsubj%5Fmatching%2Eshow%5Frec' target='SSO2Win'>Coursefinder : Search for previously approved courses taken by NTU students</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2FEXCHANGE%5FINDEMNITY%2Enotice' target='SSO2Win'>OGEM Online Indemnity Form Submission</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Fsusep%5Fapply%2Enotice' target='SSO2Win'>SUSEP - Online Application Module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Fgss%5Fstud%5Fsubj%5Freject%2Enotice%5Fsusep' target='SSO2Win'>SUSEP - Online Course Matching module</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2Fgem%5Fexplorer%5Fportal%2Eshow%5Fpage' target='SSO2Win'>Student Exchange Portal</A><img src='/common_files/images/new.gif' height='15' width='30'></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Flms%2FEXCHANGE%5FINDEMNITY%2Enotice' target='SSO2Win'>Submit Indemnity Form</A></li>
+</ul>
+	      <li id="foldheader" style="font-size:14"><img src="/common_files/images/dummy.gif">Survey/Subject Option/FYP/CNY SP Research</li>
+	      <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Feeid%5Fmain%2Enotice' target='SSO2Win'>EEE DIP</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Ffyo%5Fmain%2Emain' target='SSO2Win'>EEE Final Year Option Selection</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Furop%5Fmain%2Enotice' target='SSO2Win'>EEE UROP Selection</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fsv%5Feee%5Fstudent%2Emain' target='SSO2Win'>EEE Year 3 Prescribed Elective Selection</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FFYP%5FFILTER%5Fstudent%2Emain' target='SSO2Win'>Final Year Project Selection/CNYSP Research</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FFYP%5FFILTER%5Fstudent%2Emain' target='SSO2Win'>LKCMedicine Scholarly Project Selection</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fta%5Fmain%2Emain' target='SSO2Win'>Voting (for Valedictorian / Excellence in Teaching Award)</A></li>
+</ul></ul>
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">Financial Assistance</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FFAS2%2FApply%2FLogin%2Easpx' target='SSO2Win'>Application for Financial Assistance Schemes</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fschlrship%5Fntu%5Fadm%2Emain' target='SSO2Win'>Application for Scholarship (Merit Based)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FNYSTravelG%2FLogin%2Easpx' target='SSO2Win'>Application for Travel Grant (applicable to selected scholarship recipients)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Fptclaimsv2%2Flogin%2Easpx' target='SSO2Win'>Part Time Work Student Assistant Claim</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FWSS%2FStudent%2FLogin%2Easpx' target='SSO2Win'>Work Study Scheme</A></li>
+</ul>
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">Administrative Matters</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fehostelbill%5Fmain%2Emainpage' target='SSO2Win'> E-Hostel Bill</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fpc%5Fmain%2Emainmenu' target='SSO2Win'>Change of Personal Particulars</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FCLICKERS%2Fstudent%2Flogin%2Easpx' target='SSO2Win'>Check Clicker Device ID</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fmainbill%2Emainpage' target='SSO2Win'>E-bill</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAdminServices%2FPages%2FECARecord%2Easpx' target='SSO2Win'>ECA Records</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fhas%5Fapply1%2Elogin' target='SSO2Win'>Hostel Accommodation</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fmatric%5Freplacement%2Emain' target='SSO2Win'>Matriculation Card Replacement</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Fhso%2FOff%2Dcampus%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Off Campus Accommodation System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fpls%2Fapexacad%2Ff%3Fp%3D363%3A2' target='SSO2Win'>Semester Leave of Absence</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAdminServices%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Short Leave of Absence</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAdminServices%2FPages%2FWithdrawfromcourse%2Easpx' target='SSO2Win'>Withdrawal from University</A></li>
+
+	      <li id="foldheader" style="font-size:14"><img src="/common_files/images/dummy.gif">Administrative Procedures/Services</li>
+	      <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Fscc%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Counselling Services</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAdminServices%2FPages%2FDeferNationalServicetraining%2Easpx' target='SSO2Win'>Deferment of Reservist Training</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FAdminServices%2FPages%2FApplyforEz%2DLinkconcessioncard%2Easpx' target='SSO2Win'>Ez-Link Concession Card</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FStudentServices%2FHealthAndCounselling%2FMedicalInsuranceSchemes%2FPages%2FGPAI%2Easpx' target='SSO2Win'>Group Personal Accident Insurance Scheme</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww3%2Entu%2Eedu%2Esg%2FSAO%2FSupport%2BServices%2FMedical%2BScheme%2F' target='SSO2Win'>Medical Scheme</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fossac%2Ewis%2Entu%2Eedu%2Esg%2FNTUSACSSWPWeb%2FHome%2FPublic' target='SSO2Win'>Request for Letter of Certification</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FStudentServices%2FImmigration%2FPages%2Fdefault%2Easpx' target='SSO2Win'>Student's Pass for Foreigners</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FStudentServices%2FStudentJobs%2FPages%2FVacationparttime%2Easpx' target='SSO2Win'>Temporary Job Placements</A></li>
+</ul></ul>
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">IT Services</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fsdqa%2Enotice' target='SSO2Win'>Application for Additional Quota</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fsmlo%2Enotice' target='SSO2Win'>Application for Mailing List Ownership</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fpwd%2Entu%2Eedu%2Esg%2Fpwd%2Dssl%2Ehtm' target='SSO2Win'>Change Network Account Password</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FIT%5FINCIDENT%5FST%2Enotice' target='SSO2Win'>IT Incident Reporting Form</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fwdr%5Fsearch%2Eindex%5Fsearch' target='SSO2Win'>Request to change Student Club/Society/Hall JCRC website link</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fteamsites%2Entu%2Eedu%2Esg%2FCITS%2FServiceCatalogue%2Fdefault5%2Easpx' target='SSO2Win'>Service Catalogue</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fscaa%2Enotice' target='SSO2Win'>Student Club/Hall Website and Email Accounts Application</A></li>
+</ul>
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">Library Services</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Flib%2FServiceRequest%2FLogin%2Easpx' target='SSO2Win'>Book Delivery Request</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Flibrary%2Fservices%2FDocuments%2Fpickup%2Edoc' target='SSO2Win'>Book Pick Up (part-time undergraduates only)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Flib%2FServiceRequest%2FLogin%2Easpx' target='SSO2Win'>Book and AV Paging</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww3%2Entu%2Eedu%2Esg%2Flib%2Fforms%2Fchangeadd%2Ehtm' target='SSO2Win'>Change my address request</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Flib%2FServiceRequest%2FLogin%2Easpx' target='SSO2Win'>Closed Stack Material Requests</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Flibs%2Fddrst%2FLogin%2Easpx' target='SSO2Win'>Document Delivery Request</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Flibrary%2Fservices%2FDocuments%2FILL%2Drequest%2Edoc' target='SSO2Win'>Interlibrary Loan (final year students only)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Flibrary%2Fservices%2Frecommend%2FPages%2FAudioVisual%2Easpx' target='SSO2Win'>Recommending Titles for Audio Visual Purchase</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Flibrary%2Fservices%2Frecommend%2FPages%2FBook%2Easpx' target='SSO2Win'>Recommending Titles for Book Purchase</A></li>
+</ul>
+   <li id="foldheader"><img src="/common_files/images/dummy.gif">Others</li>
+   <ul id="foldinglist" style="display:none" style=&{head};>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FSCE%5FFUND%2Flogin%2Easpx' target='SSO2Win'>Application for CoLab4Good Fund</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fmaps%2Entu%2Eedu%2Esg%2Fmaps%23q%3AAED%2520%28Automated%2520External%2520Defibrillator%29' target='SSO2Win'>Automated External Defibrillator (AED) Locations</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fcebs%2Entu%2Eedu%2Esg%2Ffom%2F' target='SSO2Win'>Central Equipment Booking (CEBS-FOM)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fea%5Fstud%5Fentry%2EGenInform' target='SSO2Win'>Event Venues and Banner Space</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2FFRS%2FLogin%2Easpx' target='SSO2Win'>Facility Reservation System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2FStudents%2FUndergraduate%2FStudentServices%2FHealthAndCounselling%2FMedicalInsuranceSchemes%2FPages%2FGHSI%2Easpx' target='SSO2Win'>Group Hospital & Surgical Insurance for International Students</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fwkr%5Fhost%5Fstud%2Enotice' target='SSO2Win'>Hostel Repair Works</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2FFB%5FSTUDENT%2ESSO%5FAuthenticate' target='SSO2Win'>LT/TR Booking (Student Organisation)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus2%2Ewis%2Entu%2Eedu%2Esg%2FMRBS' target='SSO2Win'>Media Resource Booking (ADM / WKWSCI)</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww%2Entu%2Eedu%2Esg%2Fstudentlink%2Fstudentlink%2Ehtm%23NABS' target='SSO2Win'>Nanyang Auditorium Booking System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fohs%5Fmain%2Emenus1' target='SSO2Win'>Safety Training</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fsrce%5Fsmain%5Fs%2Emain' target='SSO2Win'>Sports Facilities Booking</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwish%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fasset%5Fbid%5Fstudent%2Everify%5Fcampus' target='SSO2Win'>Student Sale</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fstr%5Fstud%2EBRANCH%5FSTUD' target='SSO2Win'>Temperature Declaration System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=http%3A%2F%2Fwww3%2Entu%2Eedu%2Esg%2FIM%2Fstudent%2FWhistleBlowing%2Ehtml' target='SSO2Win'>Whistle Blowing Policy for NTU's faculty & staff</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fvenus%2Ewis%2Entu%2Eedu%2Esg%2Fwras%2Flogin%2Easpx' target='SSO2Win'>Workplace Risk Assessment System</A></li>
+
+				<li id="level3"><A id="level3" href='https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/LaunchService.aspx?type=1&launchSvc=https%3A%2F%2Fsso%2Ewis%2Entu%2Eedu%2Esg%2Fwebexe88%2Fowa%2Fsso%5Fredirect%2Easp%3Ft%3D1%26app%3Dhttps%3A%2F%2Fwis%2Entu%2Eedu%2Esg%2Fwebexe%2Fowa%2Fepark%5Fstud%5Fmain%2Emain' target='SSO2Win'>eParking System (Booking and Charges)</A></li>
+
+</ul>
+</script>
+<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="privacy.asp" target="_privacy"><img src="/common_files/images/icon_privacyissue_student.gif" border="0"></a>
+
+
+  </form>
+</body>
+</html>
+Íi£?i‡      Xˆ;Xˆ;=]¥Á       O    :https://sso.wis.ntu.edu.sg/studentlink/studentlink_portal.asp?p1=U1420807J&p2= necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAV0MIIFcDCCBFigAwIBAgIQBghnxHkdZdPFW5XD9X4BmTANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNzdXJhbmNlIFNlcnZlciBDQTAeFw0xNjA5MjcwMDAwMDBaFw0xOTEwMTUxMjAwMDBaMHsxCzAJBgNVBAYTAlNHMRIwEAYDVQQIEwlTaW5nYXBvcmUxEjAQBgNVBAcTCVNpbmdhcG9yZTEpMCcGA1UEChMgTmFueWFuZyBUZWNobm9sb2dpY2FsIFVuaXZlcnNpdHkxGTAXBgNVBAMMECoud2lzLm50dS5lZHUuc2cwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3DjEnimgwStAfAc29IKezMpfM+HLouKEt4jjVk5ACyFunHyvsf7YSlbgfKH3Y6o592wboHeLOH0YqpkrssDpqNXs8fpqJXdEiPKV3KUnd4N3g5LiwkBZILUfNDS7jLHhMSBsAgSZTMmH8SZz3fup239F0x0OxR5abJcG5CVPXLuvuf/36i8D/60CNobJGs9a+YBM6/wpPJCoDFh+S2R76OYnCKp1zlObJxHgZDdU1mbZBtGLnJRZmZg+SJxucbpCFDd5c4nR992ehi0vxrKp/HglOA13y1EQcC4ySTEkJlcwIGvgAuPKtZwnyUpUbAc9cndfztSUlrYNXGZbYrVf/AgMBAAGjggH5MIIB9TAfBgNVHSMEGDAWgBRRaP+QrwIHdTzM2WVkYqISuFlyOzAdBgNVHQ4EFgQU0jRSuVft8hEuRj2Ff0C6JAOhWswwKwYDVR0RBCQwIoIQKi53aXMubnR1LmVkdS5zZ4IOd2lzLm50dS5lZHUuc2cwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMDSgMqAwhi5odHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzUuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMIGDBggrBgEFBQcBAQR3MHUwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBNBggrBgEFBQcwAoZBaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hBMkhpZ2hBc3N1cmFuY2VTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAQEABaiyHK8It6UhgzQpikG8Zfz5KR2oJfjErZhP26Anl0m1PSxE8SgqYH6vQjWY9UiYlJvNmlQx8+muOGpNZLlBAxyQYzgySwHxBL454hg/cuf+aUs2/kpAFnE/jvDpIPmKT0XhWH3zGv5aEhsxR664A6uc6gQcDHUFw9GYMWahgjK5q2d78kw1fGvIFqBIQfhcik9SH2YNkJ1k+B3WNiiKow5uA1FnSxou6FaS2A2L96N0UvjV1SYpj/h4iiVLttvFla4oV5U/5R7xnRmPNQx8Rojb3w1ilQYaM5xRxRJW0kZfjR7+Z27jsfQITSVkJnS91FEE0CssqW99/TqL6/o27wA1AAMAAAAAAQEAAA== request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2017 05:43:31 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 37866
+Content-Type: text/html
+Cache-Control: private
+ original-response-headers Date: Wed, 25 Jan 2017 05:43:31 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 37866
+Content-Type: text/html
+Cache-Control: private
+ charset gbk uncompressed-len 0 predictor::resource-count 8 predictor::https://sso.wis.ntu.edu.sg/common_files/style/portal.css 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/m_custom/tree_script.js 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/dummy.gif 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/new.gif 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/icon_privacyissue_student.gif 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/plus.gif 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/minus.gif 1,1,1485323011,4097 predictor::https://sso.wis.ntu.edu.sg/common_files/images/list.gif 1,1,1485323011,4097   “ê

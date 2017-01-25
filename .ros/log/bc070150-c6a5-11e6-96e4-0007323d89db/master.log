@@ -1,0 +1,61 @@
+[rosmaster.main][INFO] 2016-12-20 19:16:22,062: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2016-12-20 19:16:22,063: Starting ROS Master Node
+[xmlrpc][INFO] 2016-12-20 19:16:22,067: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2016-12-20 19:16:22,068: Started XML-RPC server [http://LYC-UP:11311/]
+[rosmaster.master][INFO] 2016-12-20 19:16:22,069: Master initialized: port[11311], uri[http://LYC-UP:11311/]
+[xmlrpc][INFO] 2016-12-20 19:16:22,069: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2016-12-20 19:16:22,109: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,114: +PARAM [/roslaunch/uris/host_lyc_up__33048] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,257: +PARAM [/camera/driver/usb_port_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,258: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,258: +PARAM [/camera/driver/ir2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,259: +PARAM [/camera/driver/camera_type] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,259: +PARAM [/camera/driver/fisheye_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,260: +PARAM [/camera/driver/depth_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,260: +PARAM [/camera/driver/depth_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,260: +PARAM [/camera/driver/color_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,261: +PARAM [/camera/driver/ir_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,261: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,262: +PARAM [/camera/driver/color_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,262: +PARAM [/camera/driver/fisheye_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,262: +PARAM [/camera/driver/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,263: +PARAM [/camera/driver/imu_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,263: +PARAM [/camera/driver/ir2_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,263: +PARAM [/camera/driver/serial_no] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,264: +PARAM [/camera/driver/ir_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,264: +PARAM [/camera/driver/imu_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2016-12-20 19:16:22,374: +SERVICE [/rosout/get_loggers] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,377: +SERVICE [/rosout/set_logger_level] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,385: +PUB [/rosout_agg] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,388: +PUB [/rosout] /camera/driver http://LYC-UP:38717/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,395: +SERVICE [/camera/driver/get_loggers] /camera/driver http://LYC-UP:38717/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,400: +SERVICE [/camera/driver/set_logger_level] /camera/driver http://LYC-UP:38717/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,417: +PARAM [/camera/driver] by /camera/driver
+[rosmaster.master][INFO] 2016-12-20 19:16:22,419: +SUB [/rosout] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,475: +PUB [/rosout] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,478: +SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,481: +SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,489: +SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,494: +SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,499: +SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,565: publisherUpdate[/rosout] -> http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,772: +PUB [/tf_static] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,990: -PUB [/rosout] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,994: -PUB [/tf_static] /camera/camera_nodelet_manager http://LYC-UP:40139/
+[rosmaster.master][INFO] 2016-12-20 19:16:22,998: -SERVICE [/camera/camera_nodelet_manager/get_loggers] /camera/camera_nodelet_manager rosrpc://LYC-UP:37478
+[rosmaster.master][INFO] 2016-12-20 19:16:23,001: -SERVICE [/camera/camera_nodelet_manager/set_logger_level] /camera/camera_nodelet_manager rosrpc://LYC-UP:37478
+[rosmaster.master][INFO] 2016-12-20 19:16:23,004: -SERVICE [/camera/camera_nodelet_manager/load_nodelet] /camera/camera_nodelet_manager rosrpc://LYC-UP:37478
+[rosmaster.master][INFO] 2016-12-20 19:16:23,007: -SERVICE [/camera/camera_nodelet_manager/unload_nodelet] /camera/camera_nodelet_manager rosrpc://LYC-UP:37478
+[rosmaster.master][INFO] 2016-12-20 19:16:23,010: -SERVICE [/camera/camera_nodelet_manager/list] /camera/camera_nodelet_manager rosrpc://LYC-UP:37478
+[rosmaster.master][INFO] 2016-12-20 19:16:23,069: publisherUpdate[/rosout] -> http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:23,180: -PUB [/rosout] /camera/driver http://LYC-UP:38717/
+[rosmaster.master][INFO] 2016-12-20 19:16:23,184: -SERVICE [/camera/driver/get_loggers] /camera/driver rosrpc://LYC-UP:55364
+[rosmaster.master][INFO] 2016-12-20 19:16:23,187: -SERVICE [/camera/driver/set_logger_level] /camera/driver rosrpc://LYC-UP:55364
+[rosmaster.master][INFO] 2016-12-20 19:16:23,270: publisherUpdate[/rosout] -> http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:41,503: -PUB [/rosout_agg] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:41,508: -SUB [/rosout] /rosout http://LYC-UP:42501/
+[rosmaster.master][INFO] 2016-12-20 19:16:41,514: -SERVICE [/rosout/get_loggers] /rosout rosrpc://LYC-UP:49985
+[rosmaster.master][INFO] 2016-12-20 19:16:41,516: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://LYC-UP:49985
+[rosmaster.main][INFO] 2016-12-20 19:16:41,622: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2016-12-20 19:16:41,622: stopping master...
+[rospy.core][INFO] 2016-12-20 19:16:41,623: signal_shutdown [atexit]

@@ -1,0 +1,619 @@
+[rosmaster.main][INFO] 2017-01-25 12:37:20,575: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-01-25 12:37:20,576: Starting ROS Master Node
+[xmlrpc][INFO] 2017-01-25 12:37:20,579: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-01-25 12:37:20,580: Started XML-RPC server [http://LYC-UP:11311/]
+[rosmaster.master][INFO] 2017-01-25 12:37:20,580: Master initialized: port[11311], uri[http://LYC-UP:11311/]
+[xmlrpc][INFO] 2017-01-25 12:37:20,581: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-01-25 12:37:20,628: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,634: +PARAM [/roslaunch/uris/host_lyc_up__33140] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,783: +PARAM [/camera/driver/color_fps] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,783: +PARAM [/camera/driver/ir_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,784: +PARAM [/camera/driver/color_width] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,784: +PARAM [/camera/driver/ir2_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,785: +PARAM [/camera/driver/fisheye_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,785: +PARAM [/camera/driver/enable_depth] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,785: +PARAM [/camera/driver/enable_ir2] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,786: +PARAM [/camera/driver/mode] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,786: +PARAM [/camera/driver/fisheye_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,787: +PARAM [/camera/driver/depth_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,787: +PARAM [/camera/driver/color_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,788: +PARAM [/camera/driver/depth_height] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,788: +PARAM [/camera/driver/ir2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,788: +PARAM [/camera/driver/imu_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,789: +PARAM [/camera/driver/color_height] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,789: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,790: +PARAM [/camera/driver/camera_type] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,790: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,791: +PARAM [/camera/driver/depth_fps] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,791: +PARAM [/camera/driver/color_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,791: +PARAM [/camera/driver/enable_color] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,792: +PARAM [/camera/driver/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,792: +PARAM [/camera/driver/imu_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,792: +PARAM [/camera/driver/enable_pointcloud] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,793: +PARAM [/camera/driver/enable_ir] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,793: +PARAM [/camera/driver/enable_tf] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,793: +PARAM [/camera/driver/depth_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,794: +PARAM [/camera/driver/usb_port_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,794: +PARAM [/camera/driver/depth_width] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,795: +PARAM [/camera/driver/serial_no] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,795: +PARAM [/camera/driver/ir_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2017-01-25 12:37:20,809: +SERVICE [/rosout/get_loggers] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,812: +SERVICE [/rosout/set_logger_level] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,817: +PUB [/rosout_agg] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,837: +SUB [/rosout] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,887: +PUB [/rosout] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,890: +SERVICE [/camera/driver/get_loggers] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,894: +SERVICE [/camera/driver/set_logger_level] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,906: +PARAM [/camera/driver] by /camera/driver
+[rosmaster.master][INFO] 2017-01-25 12:37:20,946: +PUB [/rosout] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,948: +SERVICE [/camera/nodelet_manager/get_loggers] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,951: +SERVICE [/camera/nodelet_manager/set_logger_level] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,964: +SERVICE [/camera/nodelet_manager/load_nodelet] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,967: +SERVICE [/camera/nodelet_manager/unload_nodelet] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,970: +SERVICE [/camera/nodelet_manager/list] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,980: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:20,990: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,203: +PUB [/tf_static] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,563: +PUB [/camera/color/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,567: +SERVICE [/camera/color/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,569: +PUB [/camera/color/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,573: +PUB [/camera/color/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,583: +PARAM [/camera/color/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,585: +PARAM [/camera/color/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,588: +PARAM [/camera/color/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,591: +PARAM [/camera/color/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,594: +PARAM [/camera/color/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,597: +PARAM [/camera/color/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,702: +PUB [/camera/color/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,705: +SERVICE [/camera/color/image_raw/compressed/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,708: +PUB [/camera/color/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,711: +PUB [/camera/color/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,721: +PARAM [/camera/color/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,723: +PARAM [/camera/color/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,726: +PARAM [/camera/color/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,729: +PARAM [/camera/color/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,732: +PARAM [/camera/color/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,735: +PARAM [/camera/color/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,835: +PUB [/camera/color/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,950: +PUB [/camera/color/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,953: +SERVICE [/camera/color/image_raw/theora/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,956: +PUB [/camera/color/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,959: +PUB [/camera/color/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:21,971: +PARAM [/camera/color/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,974: +PARAM [/camera/color/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,977: +PARAM [/camera/color/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,980: +PARAM [/camera/color/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,983: +PARAM [/camera/color/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,986: +PARAM [/camera/color/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,989: +PARAM [/camera/color/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,991: +PARAM [/camera/color/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:21,994: +PUB [/camera/color/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,089: +PUB [/camera/depth/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,092: +SERVICE [/camera/depth/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,095: +PUB [/camera/depth/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,099: +PUB [/camera/depth/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,109: +PARAM [/camera/depth/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,112: +PARAM [/camera/depth/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,114: +PARAM [/camera/depth/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,117: +PARAM [/camera/depth/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,120: +PARAM [/camera/depth/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,123: +PARAM [/camera/depth/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,215: +PUB [/camera/depth/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,219: +SERVICE [/camera/depth/image_raw/compressed/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,222: +PUB [/camera/depth/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,226: +PUB [/camera/depth/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,238: +PARAM [/camera/depth/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,242: +PARAM [/camera/depth/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,245: +PARAM [/camera/depth/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,248: +PARAM [/camera/depth/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,251: +PARAM [/camera/depth/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,254: +PARAM [/camera/depth/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,345: +PUB [/camera/depth/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,437: +PUB [/camera/depth/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,441: +SERVICE [/camera/depth/image_raw/theora/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,444: +PUB [/camera/depth/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,448: +PUB [/camera/depth/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,460: +PARAM [/camera/depth/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,462: +PARAM [/camera/depth/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,465: +PARAM [/camera/depth/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,468: +PARAM [/camera/depth/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,471: +PARAM [/camera/depth/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,473: +PARAM [/camera/depth/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,476: +PARAM [/camera/depth/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,479: +PARAM [/camera/depth/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,482: +PUB [/camera/depth/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,485: +PUB [/camera/depth/points] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,578: +PUB [/camera/ir/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,581: +SERVICE [/camera/ir/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,584: +PUB [/camera/ir/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,587: +PUB [/camera/ir/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,597: +PARAM [/camera/ir/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,600: +PARAM [/camera/ir/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,603: +PARAM [/camera/ir/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,605: +PARAM [/camera/ir/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,608: +PARAM [/camera/ir/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,611: +PARAM [/camera/ir/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,701: +PUB [/camera/ir/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,704: +SERVICE [/camera/ir/image_raw/compressed/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,707: +PUB [/camera/ir/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,710: +PUB [/camera/ir/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,719: +PARAM [/camera/ir/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,722: +PARAM [/camera/ir/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,725: +PARAM [/camera/ir/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,728: +PARAM [/camera/ir/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,730: +PARAM [/camera/ir/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,734: +PARAM [/camera/ir/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,825: +PUB [/camera/ir/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,917: +PUB [/camera/ir/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,920: +SERVICE [/camera/ir/image_raw/theora/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,922: +PUB [/camera/ir/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,925: +PUB [/camera/ir/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:22,936: +PARAM [/camera/ir/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,938: +PARAM [/camera/ir/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,941: +PARAM [/camera/ir/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,943: +PARAM [/camera/ir/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,946: +PARAM [/camera/ir/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,948: +PARAM [/camera/ir/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,951: +PARAM [/camera/ir/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,953: +PARAM [/camera/ir/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:22,956: +PUB [/camera/ir/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,051: +PUB [/camera/ir2/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,054: +SERVICE [/camera/ir2/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,058: +PUB [/camera/ir2/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,061: +PUB [/camera/ir2/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,070: +PARAM [/camera/ir2/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,073: +PARAM [/camera/ir2/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,076: +PARAM [/camera/ir2/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,079: +PARAM [/camera/ir2/image_raw/compressedDepth/depth_max] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,082: +PARAM [/camera/ir2/image_raw/compressedDepth/depth_quantization] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,084: +PARAM [/camera/ir2/image_raw/compressedDepth/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,175: +PUB [/camera/ir2/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,178: +SERVICE [/camera/ir2/image_raw/compressed/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,181: +PUB [/camera/ir2/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,185: +PUB [/camera/ir2/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,194: +PARAM [/camera/ir2/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,197: +PARAM [/camera/ir2/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,200: +PARAM [/camera/ir2/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,203: +PARAM [/camera/ir2/image_raw/compressed/format] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,205: +PARAM [/camera/ir2/image_raw/compressed/jpeg_quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,208: +PARAM [/camera/ir2/image_raw/compressed/png_level] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,298: +PUB [/camera/ir2/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,391: +PUB [/camera/ir2/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,394: +SERVICE [/camera/ir2/image_raw/theora/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,397: +PUB [/camera/ir2/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,401: +PUB [/camera/ir2/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,412: +PARAM [/camera/ir2/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,415: +PARAM [/camera/ir2/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,418: +PARAM [/camera/ir2/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,421: +PARAM [/camera/ir2/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,424: +PARAM [/camera/ir2/image_raw/theora/optimize_for] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,426: +PARAM [/camera/ir2/image_raw/theora/target_bitrate] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,429: +PARAM [/camera/ir2/image_raw/theora/quality] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,432: +PARAM [/camera/ir2/image_raw/theora/keyframe_frequency] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,435: +PUB [/camera/ir2/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,438: +SERVICE [/camera/driver/get_settings] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,441: +SERVICE [/camera/driver/set_power] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,443: +SERVICE [/camera/driver/force_power] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,446: +SERVICE [/camera/driver/is_powered] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,450: +SERVICE [/camera/driver/set_parameters] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,453: +PUB [/camera/driver/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,456: +PUB [/camera/driver/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:23,525: +PARAM [/camera/driver/enable_depth] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,528: +PARAM [/camera/driver/color_backlight_compensation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,531: +PARAM [/camera/driver/color_brightness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,533: +PARAM [/camera/driver/color_contrast] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,536: +PARAM [/camera/driver/color_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,539: +PARAM [/camera/driver/color_gamma] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,542: +PARAM [/camera/driver/color_hue] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,545: +PARAM [/camera/driver/color_saturation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,547: +PARAM [/camera/driver/color_sharpness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,550: +PARAM [/camera/driver/color_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,553: +PARAM [/camera/driver/color_enable_auto_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,556: +PARAM [/camera/driver/r200_lr_auto_exposure_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,559: +PARAM [/camera/driver/r200_lr_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,561: +PARAM [/camera/driver/r200_lr_exposure] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,564: +PARAM [/camera/driver/r200_emitter_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,567: +PARAM [/camera/driver/r200_auto_exposure_top_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,570: +PARAM [/camera/driver/r200_auto_exposure_bottom_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,572: +PARAM [/camera/driver/r200_auto_exposure_left_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,575: +PARAM [/camera/driver/r200_auto_exposure_right_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,578: +PARAM [/camera/driver/r200_dc_preset] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,581: +PARAM [/camera/driver/r200_dc_estimate_median_decrement] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,583: +PARAM [/camera/driver/r200_dc_estimate_median_increment] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,586: +PARAM [/camera/driver/r200_dc_median_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,589: +PARAM [/camera/driver/r200_dc_score_minimum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,592: +PARAM [/camera/driver/r200_dc_score_maximum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,595: +PARAM [/camera/driver/r200_dc_texture_count_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,597: +PARAM [/camera/driver/r200_dc_texture_difference_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,600: +PARAM [/camera/driver/r200_dc_second_peak_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,603: +PARAM [/camera/driver/r200_dc_neighbor_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:23,606: +PARAM [/camera/driver/r200_dc_lr_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,508: +PARAM [/camera/driver/enable_depth] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,516: +PARAM [/camera/driver/color_backlight_compensation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,521: +PARAM [/camera/driver/color_brightness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,527: +PARAM [/camera/driver/color_contrast] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,530: +PARAM [/camera/driver/color_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,534: +PARAM [/camera/driver/color_gamma] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,536: +PARAM [/camera/driver/color_hue] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,540: +PARAM [/camera/driver/color_saturation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,543: +PARAM [/camera/driver/color_sharpness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,547: +PARAM [/camera/driver/color_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,550: +PARAM [/camera/driver/color_enable_auto_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,554: +PARAM [/camera/driver/r200_lr_auto_exposure_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,557: +PARAM [/camera/driver/r200_lr_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,560: +PARAM [/camera/driver/r200_lr_exposure] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,563: +PARAM [/camera/driver/r200_emitter_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,566: +PARAM [/camera/driver/r200_auto_exposure_top_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,568: +PARAM [/camera/driver/r200_auto_exposure_bottom_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,572: +PARAM [/camera/driver/r200_auto_exposure_left_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,575: +PARAM [/camera/driver/r200_auto_exposure_right_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,578: +PARAM [/camera/driver/r200_dc_preset] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,581: +PARAM [/camera/driver/r200_dc_estimate_median_decrement] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,584: +PARAM [/camera/driver/r200_dc_estimate_median_increment] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,588: +PARAM [/camera/driver/r200_dc_median_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,591: +PARAM [/camera/driver/r200_dc_score_minimum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,593: +PARAM [/camera/driver/r200_dc_score_maximum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,596: +PARAM [/camera/driver/r200_dc_texture_count_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,599: +PARAM [/camera/driver/r200_dc_texture_difference_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,601: +PARAM [/camera/driver/r200_dc_second_peak_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,604: +PARAM [/camera/driver/r200_dc_neighbor_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,607: +PARAM [/camera/driver/r200_dc_lr_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:24,611: +PUB [/camera/nodelet_manager/bond] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:24,629: +SUB [/camera/nodelet_manager/bond] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:24,705: +PUB [/camera/nodelet_manager/bond] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:37:24,725: +SUB [/camera/nodelet_manager/bond] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:37:24,790: publisherUpdate[/camera/nodelet_manager/bond] -> http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,325: +PUB [/rosout] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,338: +SERVICE [/camera/dynparam_4519_1485319047098/get_loggers] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,344: +SERVICE [/camera/dynparam_4519_1485319047098/set_logger_level] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,361: +SUB [/camera/driver/parameter_descriptions] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,370: +SUB [/camera/driver/parameter_updates] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,397: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,437: +PARAM [/camera/driver/enable_depth] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,440: +PARAM [/camera/driver/color_backlight_compensation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,444: +PARAM [/camera/driver/color_brightness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,448: +PARAM [/camera/driver/color_contrast] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,452: +PARAM [/camera/driver/color_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,455: +PARAM [/camera/driver/color_gamma] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,458: +PARAM [/camera/driver/color_hue] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,462: +PARAM [/camera/driver/color_saturation] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,465: +PARAM [/camera/driver/color_sharpness] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,468: +PARAM [/camera/driver/color_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,472: +PARAM [/camera/driver/color_enable_auto_white_balance] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,475: +PARAM [/camera/driver/r200_lr_auto_exposure_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,479: +PARAM [/camera/driver/r200_lr_gain] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,484: +PARAM [/camera/driver/r200_lr_exposure] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,488: +PARAM [/camera/driver/r200_emitter_enabled] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,491: +PARAM [/camera/driver/r200_auto_exposure_top_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,494: +PARAM [/camera/driver/r200_auto_exposure_bottom_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,497: +PARAM [/camera/driver/r200_auto_exposure_left_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,500: +PARAM [/camera/driver/r200_auto_exposure_right_edge] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,504: +PARAM [/camera/driver/r200_dc_preset] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,507: +PARAM [/camera/driver/r200_dc_estimate_median_decrement] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,511: +PARAM [/camera/driver/r200_dc_estimate_median_increment] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,516: +PARAM [/camera/driver/r200_dc_median_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,520: +PARAM [/camera/driver/r200_dc_score_minimum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,524: +PARAM [/camera/driver/r200_dc_score_maximum_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,527: +PARAM [/camera/driver/r200_dc_texture_count_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,530: +PARAM [/camera/driver/r200_dc_texture_difference_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,533: +PARAM [/camera/driver/r200_dc_second_peak_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,536: +PARAM [/camera/driver/r200_dc_neighbor_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,540: +PARAM [/camera/driver/r200_dc_lr_threshold] by /camera/nodelet_manager
+[rosmaster.master][INFO] 2017-01-25 12:37:27,551: -SUB [/camera/driver/parameter_updates] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,552: -SUB [/camera/driver/parameter_descriptions] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,552: -PUB [/rosout] /camera/dynparam_4519_1485319047098 http://LYC-UP:43557/
+[rosmaster.master][INFO] 2017-01-25 12:37:27,553: -SERVICE [/camera/dynparam_4519_1485319047098/set_logger_level] /camera/dynparam_4519_1485319047098 rosrpc://LYC-UP:39683
+[rosmaster.master][INFO] 2017-01-25 12:37:27,553: -SERVICE [/camera/dynparam_4519_1485319047098/get_loggers] /camera/dynparam_4519_1485319047098 rosrpc://LYC-UP:39683
+[rosmaster.master][INFO] 2017-01-25 12:37:27,599: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,661: +PUB [/rosout] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,664: +SERVICE [/filters/get_loggers] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,667: +SERVICE [/filters/set_logger_level] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,686: +SUB [/camera/depth/points] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,690: +PUB [/raw_xyzrgb_output] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:39:06,712: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:39:16,056: +PUB [/rosout] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:16,060: +SERVICE [/rviz_1485319156020957304/get_loggers] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:16,062: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:39:16,064: +SERVICE [/rviz_1485319156020957304/set_logger_level] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:17,140: +SUB [/tf] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:17,161: +SUB [/tf_static] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:17,790: +PUB [/initialpose] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:17,796: +PUB [/goal] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,109: +SUB [/camera/depth/points] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,113: -PUB [/goal] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,117: -PUB [/initialpose] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,142: +PUB [/initialpose] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,156: +PUB [/goal] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,176: +PUB [/move_base_simple/goal] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,185: -PUB [/goal] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:18,189: +PUB [/clicked_point] /rviz_1485319156020957304 http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:39:54,517: +PUB [/rosout] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:39:54,518: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:39:54,523: +SERVICE [/rviz_1485319194500199928/get_loggers] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:39:54,528: +SERVICE [/rviz_1485319194500199928/set_logger_level] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:39:59,312: +SUB [/tf] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:39:59,342: +SUB [/tf_static] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,232: +PUB [/initialpose] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,238: +PUB [/goal] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,792: +SUB [/camera/depth/points] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,804: -PUB [/goal] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,809: -PUB [/initialpose] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,826: +PUB [/initialpose] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,831: +PUB [/goal] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,835: +PUB [/move_base_simple/goal] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,844: -PUB [/goal] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:00,853: +PUB [/clicked_point] /rviz_1485319194500199928 http://LYC-UP:41222/
+[rosmaster.master][INFO] 2017-01-25 12:40:28,862: -PUB [/rosout] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:40:28,870: -PUB [/raw_xyzrgb_output] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:40:28,874: -SUB [/camera/depth/points] /filters http://LYC-UP:35144/
+[rosmaster.master][INFO] 2017-01-25 12:40:28,879: -SERVICE [/filters/get_loggers] /filters rosrpc://LYC-UP:37139
+[rosmaster.master][INFO] 2017-01-25 12:40:28,883: -SERVICE [/filters/set_logger_level] /filters rosrpc://LYC-UP:37139
+[rosmaster.master][INFO] 2017-01-25 12:40:28,931: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:40:31,877: +PUB [/rosout] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:31,881: +SERVICE [/rviz_1485319231865162661/get_loggers] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:31,888: +SERVICE [/rviz_1485319231865162661/set_logger_level] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:31,942: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:40:32,740: +SUB [/tf] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:32,767: +SUB [/tf_static] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,239: +PUB [/initialpose] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,246: +PUB [/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,600: +SUB [/camera/depth/points] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,606: -PUB [/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,610: -PUB [/initialpose] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,628: +PUB [/initialpose] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,641: +PUB [/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,645: +PUB [/move_base_simple/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,648: -PUB [/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:33,653: +PUB [/clicked_point] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:34,006: +SERVICE [/rviz_1485319231865162661/reload_shaders] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,339: -SUB [/camera/depth/points] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,386: -PUB [/clicked_point] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,393: -PUB [/move_base_simple/goal] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,402: -PUB [/initialpose] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,415: -SUB [/tf_static] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,419: -SUB [/tf] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,433: -SERVICE [/rviz_1485319231865162661/reload_shaders] /rviz_1485319231865162661 rosrpc://LYC-UP:48747
+[rosmaster.master][INFO] 2017-01-25 12:40:56,716: -PUB [/rosout] /rviz_1485319231865162661 http://LYC-UP:35451/
+[rosmaster.master][INFO] 2017-01-25 12:40:56,720: -SERVICE [/rviz_1485319231865162661/get_loggers] /rviz_1485319231865162661 rosrpc://LYC-UP:48747
+[rosmaster.master][INFO] 2017-01-25 12:40:56,723: -SERVICE [/rviz_1485319231865162661/set_logger_level] /rviz_1485319231865162661 rosrpc://LYC-UP:48747
+[rosmaster.master][INFO] 2017-01-25 12:40:56,754: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,761: -PUB [/rosout] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,762: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,773: -PUB [/tf_static] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,777: -PUB [/camera/color/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,783: -PUB [/camera/color/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,786: -PUB [/camera/color/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,790: -PUB [/camera/color/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,793: -PUB [/camera/color/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,797: -PUB [/camera/color/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,806: -PUB [/camera/color/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,813: -PUB [/camera/color/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,816: -PUB [/camera/color/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,820: -PUB [/camera/color/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,823: -PUB [/camera/color/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,826: -PUB [/camera/depth/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,829: -PUB [/camera/depth/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,839: -PUB [/camera/depth/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,844: -PUB [/camera/depth/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,847: -PUB [/camera/depth/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,852: -PUB [/camera/depth/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,855: -PUB [/camera/depth/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,857: publisherUpdate[/tf_static] -> http://LYC-UP:45237/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,867: -PUB [/camera/depth/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,870: publisherUpdate[/tf_static] -> http://LYC-UP:41222/
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:55,893: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-01-25 12:42:55,887: -PUB [/camera/depth/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:55,895: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-01-25 12:42:55,897: -PUB [/camera/depth/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,904: -PUB [/camera/depth/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,908: -PUB [/camera/depth/points] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,911: -PUB [/camera/ir/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,915: -PUB [/camera/ir/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,918: -PUB [/camera/ir/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,921: -PUB [/camera/ir/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,925: -PUB [/camera/ir/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,928: -PUB [/camera/ir/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,931: -PUB [/camera/ir/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,936: -PUB [/camera/ir/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,940: -PUB [/camera/ir/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,944: -PUB [/camera/ir/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,947: -PUB [/camera/ir/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,951: -PUB [/camera/ir2/image_raw/compressedDepth] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,954: -PUB [/camera/ir2/image_raw/compressedDepth/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,958: -PUB [/camera/ir2/image_raw/compressedDepth/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,961: -PUB [/camera/ir2/image_raw/compressed] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,964: -PUB [/camera/ir2/image_raw/compressed/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,968: -PUB [/camera/ir2/image_raw/compressed/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,971: -PUB [/camera/ir2/image_raw] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,973: publisherUpdate[/camera/depth/points] -> http://LYC-UP:45237/
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:55,975: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-01-25 12:42:55,975: publisherUpdate[/camera/depth/points] -> http://LYC-UP:41222/
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:55,976: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-01-25 12:42:55,980: -PUB [/camera/ir2/image_raw/theora] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,983: -PUB [/camera/ir2/image_raw/theora/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,986: -PUB [/camera/ir2/image_raw/theora/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,989: -PUB [/camera/ir2/camera_info] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,992: -PUB [/camera/driver/parameter_descriptions] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,995: -PUB [/camera/driver/parameter_updates] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:55,999: -PUB [/camera/nodelet_manager/bond] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,020: -SUB [/camera/nodelet_manager/bond] /camera/nodelet_manager http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,024: -SERVICE [/camera/nodelet_manager/get_loggers] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,027: -SERVICE [/camera/nodelet_manager/set_logger_level] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,030: -SERVICE [/camera/nodelet_manager/load_nodelet] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,041: -SERVICE [/camera/nodelet_manager/unload_nodelet] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,049: -SERVICE [/camera/nodelet_manager/list] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,053: -SERVICE [/camera/color/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,055: -SERVICE [/camera/color/image_raw/compressed/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,059: -SERVICE [/camera/color/image_raw/theora/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,061: -SERVICE [/camera/depth/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,064: -SERVICE [/camera/depth/image_raw/compressed/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,072: -SERVICE [/camera/depth/image_raw/theora/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,078: publisherUpdate[/camera/nodelet_manager/bond] -> http://LYC-UP:39231/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,079: -SERVICE [/camera/ir/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,085: -SERVICE [/camera/ir/image_raw/compressed/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:56,087: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-01-25 12:42:56,088: publisherUpdate[/camera/nodelet_manager/bond] -> http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,091: -SERVICE [/camera/ir/image_raw/theora/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,095: -SERVICE [/camera/ir2/image_raw/compressedDepth/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,098: -SERVICE [/camera/ir2/image_raw/compressed/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,102: -SERVICE [/camera/ir2/image_raw/theora/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,105: -SERVICE [/camera/driver/get_settings] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,109: -SERVICE [/camera/driver/set_power] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,112: -SERVICE [/camera/driver/force_power] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,116: -SERVICE [/camera/driver/is_powered] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,119: -SERVICE [/camera/driver/set_parameters] /camera/nodelet_manager rosrpc://LYC-UP:54736
+[rosmaster.master][INFO] 2017-01-25 12:42:56,295: -PUB [/rosout] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,297: publisherUpdate[/rosout] -> http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,301: -PUB [/camera/nodelet_manager/bond] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,304: -SUB [/camera/nodelet_manager/bond] /camera/driver http://LYC-UP:43660/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,308: -SERVICE [/camera/driver/get_loggers] /camera/driver rosrpc://LYC-UP:41460
+[rosmaster.master][INFO] 2017-01-25 12:42:56,311: -SERVICE [/camera/driver/set_logger_level] /camera/driver rosrpc://LYC-UP:41460
+[rosmaster.master][INFO] 2017-01-25 12:42:56,395: publisherUpdate[/camera/nodelet_manager/bond] -> http://LYC-UP:43660/
+[rosmaster.threadpool][ERROR] 2017-01-25 12:42:56,397: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 208, in publisher_update_task
+    xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-01-25 12:42:56,703: -PUB [/rosout_agg] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,707: -SUB [/rosout] /rosout http://LYC-UP:36037/
+[rosmaster.master][INFO] 2017-01-25 12:42:56,710: -SERVICE [/rosout/get_loggers] /rosout rosrpc://LYC-UP:43891
+[rosmaster.master][INFO] 2017-01-25 12:42:56,713: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://LYC-UP:43891
+[rosmaster.main][INFO] 2017-01-25 12:42:56,859: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-01-25 12:42:56,861: stopping master...
+[rospy.core][INFO] 2017-01-25 12:42:56,871: signal_shutdown [atexit]

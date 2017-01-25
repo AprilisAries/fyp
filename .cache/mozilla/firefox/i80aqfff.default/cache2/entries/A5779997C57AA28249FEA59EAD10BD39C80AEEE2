@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Most Popular
+</title></head>
+<body>
+    <form name="form1" method="post" action="MostPopular.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTU0MjI2MTQ2Ng9kFgICAw9kFgICAQ9kFgICAQ8WAh4LXyFJdGVtQ291bnQCCRYSZg9kFgICAQ8PFgweBFRleHQFDVNUQVJTIFBsYW5uZXIeC05hdmlnYXRlVXJsBdwBL1BvcnRhbFNlcnZpY2VzL1NlcnZpY2VMaXN0TW9kdWxlL0xhdW5jaFNlcnZpY2UuYXNweD9sYXVuY2hTdmM9aHR0cHMlM2ElMmYlMmZzc28ud2lzLm50dS5lZHUuc2clMmZ3ZWJleGU4OCUyZm50bG0lMmZzc29fZXhwcmVzcy5hc3AlM2ZhcHAlM2RodHRwcyUzYSUyZiUyZndpc2gud2lzLm50dS5lZHUuc2clMmZwbHMlMmZ3ZWJleGUlMmZhdXNfc3RhcnNfcGxhbm5lci5tYWluJnR5cGU9MR4GVGFyZ2V0BQ5fcG9ydGFsU2VydmljZR4IQ3NzQ2xhc3MFB2xlZnRuYXYeB1Rvb2xUaXAFDVNUQVJTIFBsYW5uZXIeBF8hU0ICAmRkAgEPZBYCAgEPDxYMHwEFBVNUQVJTHwIF2QEvUG9ydGFsU2VydmljZXMvU2VydmljZUxpc3RNb2R1bGUvTGF1bmNoU2VydmljZS5hc3B4P2xhdW5jaFN2Yz1odHRwcyUzYSUyZiUyZnNzby53aXMubnR1LmVkdS5zZyUyZndlYmV4ZTg4JTJmbnRsbSUyZnNzb19leHByZXNzLmFzcCUzZmFwcCUzZGh0dHBzJTNhJTJmJTJmd2lzaC53aXMubnR1LmVkdS5zZyUyZnBscyUyZndlYmV4ZSUyZmF1c19zdGFyc19tYWluLm1lbnUmdHlwZT0xHwMFDl9wb3J0YWxTZXJ2aWNlHwQFB2xlZnRuYXYfBQUFU1RBUlMfBgICZGQCAg9kFgICAQ8PFgwfAQUNRGVncmVlIEF1ZGl0Kh8CBdkBL1BvcnRhbFNlcnZpY2VzL1NlcnZpY2VMaXN0TW9kdWxlL0xhdW5jaFNlcnZpY2UuYXNweD9sYXVuY2hTdmM9aHR0cHMlM2ElMmYlMmZzc28ud2lzLm50dS5lZHUuc2clMmZ3ZWJleGU4OCUyZm50bG0lMmZzc29fZXhwcmVzcy5hc3AlM2ZhcHAlM2RodHRwcyUzYSUyZiUyZndpc2gud2lzLm50dS5lZHUuc2clMmZwbHMlMmZ3ZWJleGUlMmZkYXJzX3Jlc3VsdF9yby5tYWluJnR5cGU9MR8DBQ5fcG9ydGFsU2VydmljZR8EBQdsZWZ0bmF2HwUFDURlZ3JlZSBBdWRpdCofBgICZGQCAw9kFgICAQ8PFgwfAQUYQXBwbGljYXRpb24gZm9yIEZpbmFuLi4uHwIFhAEvUG9ydGFsU2VydmljZXMvU2VydmljZUxpc3RNb2R1bGUvTGF1bmNoU2VydmljZS5hc3B4P2xhdW5jaFN2Yz1odHRwcyUzYSUyZiUyZnZlbnVzLndpcy5udHUuZWR1LnNnJTJmRkFTMiUyZkFwcGx5JTJmTG9naW4uYXNweCZ0eXBlPTEfAwUOX3BvcnRhbFNlcnZpY2UfBAUHbGVmdG5hdh8FBSxBcHBsaWNhdGlvbiBmb3IgRmluYW5jaWFsIEFzc2lzdGFuY2UgU2NoZW1lcx8GAgJkZAIED2QWAgIBDw8WDB8BBRZFbmdpbmVlcmluZyBBdHRhY2htZW50HwIFfC9Qb3J0YWxTZXJ2aWNlcy9TZXJ2aWNlTGlzdE1vZHVsZS9MYXVuY2hTZXJ2aWNlLmFzcHg/bGF1bmNoU3ZjPWh0dHAlM2ElMmYlMmZ0ZWFtc2l0ZXMubnR1LmVkdS5zZyUyZkNBTyUyZkVuZ2luZWVyaW5nMiZ0eXBlPTEfAwUOX3BvcnRhbFNlcnZpY2UfBAUHbGVmdG5hdh8FBRZFbmdpbmVlcmluZyBBdHRhY2htZW50HwYCAmRkAgUPZBYCAgEPDxYMHwEFGEdFTSBFeHBsb3JlciAtIE9ubGluZS4uLh8CBeABL1BvcnRhbFNlcnZpY2VzL1NlcnZpY2VMaXN0TW9kdWxlL0xhdW5jaFNlcnZpY2UuYXNweD9sYXVuY2hTdmM9aHR0cHMlM2ElMmYlMmZzc28ud2lzLm50dS5lZHUuc2clMmZ3ZWJleGU4OCUyZm93YSUyZnNzb19yZWRpcmVjdC5hc3AlM2Z0JTNkMSUyNmFwcCUzZGh0dHBzJTNhJTJmJTJmd2lzLm50dS5lZHUuc2clMmZwbHMlMmZsbXMlMmZJTlNURVBfQ0hFQ0tfU1RBVFVTLm5vdGljZSZ0eXBlPTEfAwUOX3BvcnRhbFNlcnZpY2UfBAUHbGVmdG5hdh8FBU9HRU0gRXhwbG9yZXIgLSBPbmxpbmUgQWNjZXB0YW5jZSBvZiBwbGFjZW1lbnQgb2ZmZXJlZCAvIENoZWNrIElOU1RFUCBBbGxvY2F0aW9uHwYCAmRkAgYPZBYCAgEPDxYMHwEFGEdFTSBFeHBsb3JlciAtIE9ubGluZS4uLh8CBeQBL1BvcnRhbFNlcnZpY2VzL1NlcnZpY2VMaXN0TW9kdWxlL0xhdW5jaFNlcnZpY2UuYXNweD9sYXVuY2hTdmM9aHR0cHMlM2ElMmYlMmZzc28ud2lzLm50dS5lZHUuc2clMmZ3ZWJleGU4OCUyZm93YSUyZnNzb19yZWRpcmVjdC5hc3AlM2Z0JTNkMSUyNmFwcCUzZGh0dHBzJTNhJTJmJTJmd2lzLm50dS5lZHUuc2clMmZwbHMlMmZsbXMlMmZpbnN0ZXBfc3R1ZF9zdWJqX3JlamVjdC5ub3RpY2UmdHlwZT0xHwMFDl9wb3J0YWxTZXJ2aWNlHwQFB2xlZnRuYXYfBQU1R0VNIEV4cGxvcmVyIC0gT25saW5lIENvdXJzZSBNYXRjaGluZyBVcGRhdGluZyBtb2R1bGUfBgICZGQCBw9kFgICAQ8PFgwfAQUYR0VNIEV4cGxvcmVyIC0gT25saW5lLi4uHwIF2QEvUG9ydGFsU2VydmljZXMvU2VydmljZUxpc3RNb2R1bGUvTGF1bmNoU2VydmljZS5hc3B4P2xhdW5jaFN2Yz1odHRwcyUzYSUyZiUyZnNzby53aXMubnR1LmVkdS5zZyUyZndlYmV4ZTg4JTJmb3dhJTJmc3NvX3JlZGlyZWN0LmFzcCUzZnQlM2QxJTI2YXBwJTNkaHR0cHMlM2ElMmYlMmZ3aXMubnR1LmVkdS5zZyUyZnBscyUyZmxtcyUyZmluc3RlcF9hcHBseS5ub3RpY2UmdHlwZT0xHwMFDl9wb3J0YWxTZXJ2aWNlHwQFB2xlZnRuYXYfBQUoR0VNIEV4cGxvcmVyIC0gT25saW5lIEFwcGxpY2F0aW9uIG1vZHVsZR8GAgJkZAIID2QWAgIBDw8WDB8BBRNDb3Vyc2UgUmVnaXN0cmF0aW9uHwIFuwEvUG9ydGFsU2VydmljZXMvU2VydmljZUxpc3RNb2R1bGUvTGF1bmNoU2VydmljZS5hc3B4P2xhdW5jaFN2Yz1odHRwJTNhJTJmJTJmd3d3Lm50dS5lZHUuc2clMmZTdHVkZW50cyUyZlVuZGVyZ3JhZHVhdGUlMmZBY2FkZW1pY1NlcnZpY2VzJTJmQ291cnNlUmVnaXN0cmF0aW9uJTJmUGFnZXMlMmZkZWZhdWx0LmFzcHgmdHlwZT0xHwMFDl9wb3J0YWxTZXJ2aWNlHwQFB2xlZnRuYXYfBQUTQ291cnNlIFJlZ2lzdHJhdGlvbh8GAgJkZGTMtWHk4Z1+fNCNyYC6+L+wIOTrvw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F2C2C65E" />
+</div>
+    <div>
+    
+        
+<style type="text/css">
+        /* left nav */
+	body{
+	    font-family:Arial;
+	}
+        .leftnav
+        {
+            width: 150px;
+            font-size: 11px;
+            color: #547ea8;
+            font-size: 11px;
+        }
+        
+         .leftnav a
+        {
+            color: #547ea8;
+            font-size: 11px;
+            text-decoration: none;
+        }        
+        
+        .atq_button
+{
+	background-color:#CE2029;
+	width:138px;
+	height:22px;
+}
+                
+        .leftnav .edit a
+        {
+         
+         font-weight:bold;
+         color:#FFFFFF;
+         padding: 5px;
+        	}
+	</style>
+
+<table width="133px" cellpadding="0" cellspacing="0">
+		<tr>
+			<td class="leftnav" style="width:100%">
+
+    <a id="_mostPopular__repeatServiceList_ctl00__hlPortalService" title="STARS Planner" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fntlm%2fsso_express.asp%3fapp%3dhttps%3a%2f%2fwish.wis.ntu.edu.sg%2fpls%2fwebexe%2faus_stars_planner.main&amp;type=1" target="_portalService">STARS Planner</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl01__hlPortalService" title="STARS" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fntlm%2fsso_express.asp%3fapp%3dhttps%3a%2f%2fwish.wis.ntu.edu.sg%2fpls%2fwebexe%2faus_stars_main.menu&amp;type=1" target="_portalService">STARS</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl02__hlPortalService" title="Degree Audit*" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fntlm%2fsso_express.asp%3fapp%3dhttps%3a%2f%2fwish.wis.ntu.edu.sg%2fpls%2fwebexe%2fdars_result_ro.main&amp;type=1" target="_portalService">Degree Audit*</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl03__hlPortalService" title="Application for Financial Assistance Schemes" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fvenus.wis.ntu.edu.sg%2fFAS2%2fApply%2fLogin.aspx&amp;type=1" target="_portalService">Application for Finan...</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl04__hlPortalService" title="Engineering Attachment" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=http%3a%2f%2fteamsites.ntu.edu.sg%2fCAO%2fEngineering2&amp;type=1" target="_portalService">Engineering Attachment</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl05__hlPortalService" title="GEM Explorer - Online Acceptance of placement offered / Check INSTEP Allocation" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fowa%2fsso_redirect.asp%3ft%3d1%26app%3dhttps%3a%2f%2fwis.ntu.edu.sg%2fpls%2flms%2fINSTEP_CHECK_STATUS.notice&amp;type=1" target="_portalService">GEM Explorer - Online...</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl06__hlPortalService" title="GEM Explorer - Online Course Matching Updating module" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fowa%2fsso_redirect.asp%3ft%3d1%26app%3dhttps%3a%2f%2fwis.ntu.edu.sg%2fpls%2flms%2finstep_stud_subj_reject.notice&amp;type=1" target="_portalService">GEM Explorer - Online...</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl07__hlPortalService" title="GEM Explorer - Online Application module" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=https%3a%2f%2fsso.wis.ntu.edu.sg%2fwebexe88%2fowa%2fsso_redirect.asp%3ft%3d1%26app%3dhttps%3a%2f%2fwis.ntu.edu.sg%2fpls%2flms%2finstep_apply.notice&amp;type=1" target="_portalService">GEM Explorer - Online...</a>
+<br />
+<br style="line-height:75%" />
+
+    <a id="_mostPopular__repeatServiceList_ctl08__hlPortalService" title="Course Registration" class="leftnav" href="/PortalServices/ServiceListModule/LaunchService.aspx?launchSvc=http%3a%2f%2fwww.ntu.edu.sg%2fStudents%2fUndergraduate%2fAcademicServices%2fCourseRegistration%2fPages%2fdefault.aspx&amp;type=1" target="_portalService">Course Registration</a>
+<br />
+<br style="line-height:75%" />
+
+</td></tr>
+</table>
+
+    
+    </div>
+    </form>
+</body>
+</html>
+A®¯ˆ[           Xˆ;=]¥Â       O    :https://venus.wis.ntu.edu.sg/PortalServices/ServiceListModule/MostPopular.aspx strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Wed, 25 Jan 2017 05:43:33 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 9018
+ original-response-headers Date: Wed, 25 Jan 2017 05:43:33 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 9018
+ charset UTF-8 uncompressed-len 0   #:

@@ -1,0 +1,17 @@
+logrotate state -- version 2
+"/home/liyanci/.cache/upstart/unity-settings-daemon.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/window-stack-bridge.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/dbus.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/update-notifier-release.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/gnome-keyring-ssh.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/unity7.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/hud.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/gnome-keyring.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/ssh-agent.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/indicator-sound.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/unity-panel-service.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/update-notifier-crash-_var_crash__opt_ros_kinetic_bin_rviz.1000.crash.log" 2017-1-25-13:0:0
+"/home/liyanci/.cache/upstart/upstart-event-bridge.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/gpg-agent.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_gnome-software.1000.crash.log" 2017-1-25-13:43:11
+"/home/liyanci/.cache/upstart/bamfdaemon.log" 2017-1-25-11:32:1
